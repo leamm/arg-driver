@@ -102,10 +102,18 @@ const Index = () => {
               onAnswerSelect={handleAnswerSelect}
             />
             
-            <LanguageSelector 
-              language={language} 
-              onLanguageChange={setLanguage} 
-            />
+            <div className="flex items-center justify-between gap-4">
+              <LanguageSelector 
+                language={language} 
+                onLanguageChange={setLanguage} 
+              />
+              
+              {showResult && (
+                <Button onClick={handleNext} size="lg">
+                  {nextButtonText[language]}
+                </Button>
+              )}
+            </div>
 
             <div className="bg-card p-4 rounded-lg border">
               <div className="mb-3 text-sm font-medium text-muted-foreground">
@@ -120,14 +128,6 @@ const Index = () => {
                 onQuestionSelect={handleQuestionSelect}
               />
             </div>
-            
-            {showResult && (
-              <div className="mt-6 flex justify-end">
-                <Button onClick={handleNext} size="lg">
-                  {nextButtonText[language]}
-                </Button>
-              </div>
-            )}
           </div>
 
           <div className="hidden lg:block">
