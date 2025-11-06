@@ -1,23 +1,29 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Header } from "@/components/Header";
 import { QuestionCard } from "@/components/QuestionCard";
 import { ProgressSidebar } from "@/components/ProgressSidebar";
 import { Results } from "@/components/Results";
 import { questions } from "@/data/questions";
 import { Button } from "@/components/ui/button";
+import { LanguageSelector } from "@/components/LanguageSelector";
+import { QuestionNavigation } from "@/components/QuestionNavigation";
 
 const Index = () => {
   const [language, setLanguage] = useState<"es" | "en" | "ru">("es");
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
+  const [activeQuestions, setActiveQuestions] = useState(() => {
+    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, 20);
+  });
   const [answers, setAnswers] = useState<(boolean | null)[]>(
-    new Array(questions.length).fill(null)
+    new Array(20).fill(null)
   );
   const [testCompleted, setTestCompleted] = useState(false);
 
-  const currentQuestion = questions[currentQuestionIndex];
-  const isLastQuestion = currentQuestionIndex === questions.length - 1;
+  const currentQuestion = activeQuestions[currentQuestionIndex];
+  const isLastQuestion = currentQuestionIndex === activeQuestions.length - 1;
 
   const handleAnswerSelect = (index: number) => {
     setSelectedAnswer(index);
@@ -40,11 +46,19 @@ const Index = () => {
   };
 
   const handleRestart = () => {
+    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+    setActiveQuestions(shuffled.slice(0, 20));
     setCurrentQuestionIndex(0);
     setSelectedAnswer(null);
     setShowResult(false);
-    setAnswers(new Array(questions.length).fill(null));
+    setAnswers(new Array(20).fill(null));
     setTestCompleted(false);
+  };
+
+  const handleQuestionSelect = (index: number) => {
+    setCurrentQuestionIndex(index);
+    setSelectedAnswer(null);
+    setShowResult(false);
   };
 
   const correctAnswers = answers.filter((a) => a === true).length;
@@ -58,11 +72,11 @@ const Index = () => {
   if (testCompleted) {
     return (
       <div className="min-h-screen bg-background">
-        <Header language={language} onLanguageChange={setLanguage} />
+        <Header />
         <main className="container mx-auto py-12 px-6">
           <Results
             correctAnswers={correctAnswers}
-            totalQuestions={questions.length}
+            totalQuestions={activeQuestions.length}
             language={language}
             onRestart={handleRestart}
           />
@@ -73,20 +87,39 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header language={language} onLanguageChange={setLanguage} />
+      <Header />
       
       <main className="container mx-auto py-12 px-6">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
-          <div>
+          <div className="space-y-6">
             <QuestionCard
               question={currentQuestion}
               currentQuestion={currentQuestionIndex + 1}
-              totalQuestions={questions.length}
+              totalQuestions={activeQuestions.length}
               selectedAnswer={selectedAnswer}
               showResult={showResult}
               language={language}
               onAnswerSelect={handleAnswerSelect}
             />
+            
+            <LanguageSelector 
+              language={language} 
+              onLanguageChange={setLanguage} 
+            />
+
+            <div className="bg-card p-4 rounded-lg border">
+              <div className="mb-3 text-sm font-medium text-muted-foreground">
+                {language === "es" && "Navegación de preguntas"}
+                {language === "en" && "Question navigation"}
+                {language === "ru" && "Навигация по вопросам"}
+              </div>
+              <QuestionNavigation
+                totalQuestions={activeQuestions.length}
+                currentQuestion={currentQuestionIndex + 1}
+                answers={answers}
+                onQuestionSelect={handleQuestionSelect}
+              />
+            </div>
             
             {showResult && (
               <div className="mt-6 flex justify-end">
@@ -99,7 +132,7 @@ const Index = () => {
 
           <div className="hidden lg:block">
             <ProgressSidebar
-              totalQuestions={questions.length}
+              totalQuestions={activeQuestions.length}
               currentQuestion={currentQuestionIndex + 1}
               answers={answers}
               language={language}
