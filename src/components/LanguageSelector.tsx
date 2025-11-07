@@ -13,27 +13,30 @@ export const LanguageSelector = ({ language, onLanguageChange }: LanguageSelecto
         size="sm"
         onClick={() => onLanguageChange("es")}
         className="gap-2"
+        aria-label="Español"
       >
         <img src="/flags/ar.png" alt="Español" className="w-5 h-5" />
-        Español
+        <span className="hidden sm:inline">Español</span>
       </Button>
       <Button
         variant={language === "en" ? "default" : "outline"}
         size="sm"
         onClick={() => onLanguageChange("en")}
         className="gap-2"
+        aria-label="English"
       >
         <img src="/flags/us.png" alt="English" className="w-5 h-5" />
-        English
+        <span className="hidden sm:inline">English</span>
       </Button>
       <Button
         variant={language === "ru" ? "default" : "outline"}
         size="sm"
         onClick={() => onLanguageChange("ru")}
         className="gap-2"
+        aria-label="Русский"
       >
         <img src="/flags/ru.png" alt="Русский" className="w-5 h-5" />
-        Русский
+        <span className="hidden sm:inline">Русский</span>
       </Button>
     </div>
   );
