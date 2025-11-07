@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Question } from "@/data/questions";
-import { CheckCircle2, XCircle } from "lucide-react";
+import { CheckCircle2, XCircle, Star } from "lucide-react";
 
 interface QuestionCardProps {
   question: Question;
@@ -11,6 +11,8 @@ interface QuestionCardProps {
   showResult: boolean;
   language: "es" | "en" | "ru";
   onAnswerSelect: (index: number) => void;
+  isFavorite?: boolean;
+  onToggleFavorite?: () => void;
 }
 
 export const QuestionCard = ({
@@ -21,6 +23,8 @@ export const QuestionCard = ({
   showResult,
   language,
   onAnswerSelect,
+  isFavorite = false,
+  onToggleFavorite,
 }: QuestionCardProps) => {
   return (
     <div className="w-full">
@@ -32,6 +36,20 @@ export const QuestionCard = ({
               {language === "en" && `Question ${currentQuestion} of ${totalQuestions}`}
               {language === "ru" && `Вопрос ${currentQuestion} из ${totalQuestions}`}
             </span>
+            {onToggleFavorite && (
+              <Button
+                variant={isFavorite ? "secondary" : "outline"}
+                size="sm"
+                onClick={onToggleFavorite}
+                aria-label={isFavorite ? (language === "es" ? "Quitar de interesantes" : language === "ru" ? "Убрать из избранного" : "Remove from favorites") : (language === "es" ? "Marcar como interesante" : language === "ru" ? "Добавить в избранное" : "Mark as favorite")}
+              >
+                <Star className={`h-4 w-4 ${isFavorite ? "text-yellow-500 fill-yellow-500" : ""}`} />
+                <span className="hidden sm:inline">
+                  {isFavorite && (language === "es" ? "Interesante" : language === "ru" ? "В избранном" : "Favorited")}
+                  {!isFavorite && (language === "es" ? "Marcar" : language === "ru" ? "Отметить" : "Mark")}
+                </span>
+              </Button>
+            )}
           </div>
           <h2 className="text-2xl font-semibold mb-6">{question.question[language]}</h2>
 

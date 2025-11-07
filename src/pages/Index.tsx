@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { QuestionNavigation } from "@/components/QuestionNavigation";
 import { updateQuestionStat, addTestStat } from "@/utils/statistics";
+import { getFavoriteIds, toggleFavorite } from "@/utils/favorites";
 
 const STORAGE_KEY = "argdriver_test_state_v1";
 
@@ -21,6 +22,7 @@ const Index = () => {
     // Use exactly 20 questions
     return shuffled.slice(0, 20);
   });
+  const [favoriteIds, setFavoriteIdsState] = useState<number[]>(() => getFavoriteIds());
   const [answers, setAnswers] = useState<(boolean | null)[]>(
     new Array(20).fill(null)
   );
@@ -271,6 +273,15 @@ const Index = () => {
               showResult={showResult}
               language={language}
               onAnswerSelect={handleAnswerSelect}
+              isFavorite={favoriteIds.includes(currentQuestion.id)}
+              onToggleFavorite={() => {
+                const nowFav = toggleFavorite(currentQuestion.id);
+                setFavoriteIdsState((prev) => {
+                  const set = new Set(prev);
+                  if (nowFav) set.add(currentQuestion.id); else set.delete(currentQuestion.id);
+                  return Array.from(set);
+                });
+              }}
             />
 
             <div className="bg-card p-4 rounded-lg border flex items-center justify-between">

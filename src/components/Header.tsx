@@ -23,6 +23,15 @@ export const Header = () => {
             </li>
             <li>
               <NavLink 
+                to="/favorites" 
+                className="text-header-foreground hover:text-primary transition-colors"
+                activeClassName="font-bold text-primary"
+              >
+                Interesantes
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
                 to="/statistics" 
                 className="text-header-foreground hover:text-primary transition-colors"
                 activeClassName="font-bold text-primary"
