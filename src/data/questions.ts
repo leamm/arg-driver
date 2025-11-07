@@ -12528,8 +12528,8 @@ export const questions: Question[] = [
       {
         "text": {
           "es": "Queden sujetas, sin tacón ni cordones.",
-          "en": "What is meant by an approved helmet?",
-          "ru": "Что понимается под сертифицированным шлемом?"
+          "en": "They should stay secure, without heels or laces.",
+          "ru": "Чтобы держались (плотно сидели), без каблука и без шнурков."
         },
         "correct": true
       }
@@ -12539,31 +12539,31 @@ export const questions: Question[] = [
     "id": 377,
     "question": {
       "es": "¿Qué se entiende por casco homologado?",
-      "en": "It refers to the certification that a helmet must meet, confirming that it is suitable and safe to use.",
-      "ru": "Это относится к сертификации, которую должен про��ти шлем, подтверждая, что он подходит и безопасен для использования."
+      "en": "What is meant by an approved helmet?",
+      "ru": "Что понимается под сертифицированным шлемом?"
     },
     "answers": [
       {
         "text": {
           "es": "Se refiere a la certificación que debe cumplir un casco, confirmando que es apto y seguro para usarlo.",
-          "en": "It indicates the manufacturer's brand.",
-          "ru": "Указывает на марку производителя."
+          "en": "It refers to the certification that a helmet must meet, confirming that it is suitable and safe to use.",
+          "ru": "Это относится к сертификации, которую должен про��ти шлем, подтверждая, что он подходит и безопасен для использования."
         },
         "correct": true
       },
       {
         "text": {
           "es": "Indica la marca del fabricante.",
-          "en": "It refers to the origin and expiration date of the helmet.",
-          "ru": "Относится к происхождению и дате истечения срока действия."
+          "en": "It indicates the manufacturer's brand.",
+          "ru": "Указывает на марку производителя."
         },
         "correct": false
       },
       {
         "text": {
           "es": "Se refiere a la procedencia y fecha de vencimiento del mismo.",
-          "en": "What type of safety does the following element belong to?",
-          "ru": "К какому типу безопасности относится следующий элемент?"
+          "en": "It refers to the origin and expiration date of the helmet.",
+          "ru": "Относится к происхождению и дате истечения срока действия."
         },
         "correct": false
       }
@@ -12573,23 +12573,23 @@ export const questions: Question[] = [
     "id": 378,
     "question": {
       "es": "¿A qué tipo de seguridad pertenece el siguiente elemento?",
-      "en": "To passive safety.",
-      "ru": "К пассивной безопасности."
+      "en": "What type of safety does the following element belong to?",
+      "ru": "К какому типу безопасности относится следующий элемент?"
     },
     "answers": [
       {
         "text": {
           "es": "A la seguridad pasiva.",
-          "en": "To active safety.",
-          "ru": "К активной безопасности."
+          "en": "To passive safety.",
+          "ru": "К пассивной безопасности."
         },
         "correct": true
       },
       {
         "text": {
           "es": "A la seguridad activa.",
-          "en": "A mandatory requirement that a motorcycle helmet must meet is that...",
-          "ru": "Обязательное требование, которому должен соответствовать шлем для мотоциклиста, заключается в том, что..."
+          "en": "To active safety.",
+          "ru": "К активной безопасности."
         },
         "correct": false
       },
@@ -12597,7 +12597,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Ambas respuestas, la A y la B, son correctas.",
           "en": "Both answers, A and B, are correct.",
-          "ru": "Обе ответы, A и B, верны."
+          "ru": "Оба ответа, A и B, верны."
         },
         "correct": false
       }
