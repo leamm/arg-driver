@@ -42,7 +42,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b1.jpg"
+    "image": "/questions/b1.jpg"
   },
   {
     "id": 2,
@@ -111,7 +111,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b2.jpg"
+    "image": "/questions/b2.jpg"
   },
   {
     "id": 4,
@@ -402,7 +402,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b2.jpg"
+    "image": "/questions/b2.jpg"
   },
   {
     "id": 13,
@@ -667,7 +667,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b3.jpg"
+    "image": "/questions/b3.jpg"
   },
   {
     "id": 21,
@@ -702,7 +702,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b4.jpg"
+    "image": "/questions/b4.jpg"
   },
   {
     "id": 22,
@@ -805,7 +805,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b5.jpg"
+    "image": "/questions/b5.jpg"
   },
   {
     "id": 25,
@@ -840,7 +840,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b6.jpg"
+    "image": "/questions/b6.jpg"
   },
   {
     "id": 26,
@@ -875,7 +875,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b7.jpg"
+    "image": "/questions/b7.jpg"
   },
   {
     "id": 27,
@@ -910,7 +910,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b8.jpg"
+    "image": "/questions/b8.jpg"
   },
   {
     "id": 28,
@@ -1047,7 +1047,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b9.jpg"
+    "image": "/questions/b9.jpg"
   },
   {
     "id": 32,
@@ -1150,7 +1150,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b10.jpg"
+    "image": "/questions/b10.jpg"
   },
   {
     "id": 35,
@@ -1185,7 +1185,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b11.jpg"
+    "image": "/questions/b11.jpg"
   },
   {
     "id": 36,
@@ -1288,7 +1288,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b12.jpg"
+    "image": "/questions/b12.jpg"
   },
   {
     "id": 39,
@@ -1323,7 +1323,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b13.jpg"
+    "image": "/questions/b13.jpg"
   },
   {
     "id": 40,
@@ -1358,7 +1358,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b14.jpg"
+    "image": "/questions/b14.jpg"
   },
   {
     "id": 41,
@@ -1385,7 +1385,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a1.jpg"
+    "image": "/questions/a1.jpg"
   },
   {
     "id": 42,
@@ -1420,7 +1420,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b15.jpg"
+    "image": "/questions/b15.jpg"
   },
   {
     "id": 43,
@@ -1455,7 +1455,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b16.jpg"
+    "image": "/questions/b16.jpg"
   },
   {
     "id": 44,
@@ -1490,7 +1490,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a2.jpg"
+    "image": "/questions/a2.jpg"
   },
   {
     "id": 45,
@@ -1525,7 +1525,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b17.jpg"
+    "image": "/questions/b17.jpg"
   },
   {
     "id": 46,
@@ -1552,7 +1552,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b18.jpg"
+    "image": "/questions/b18.jpg"
   },
   {
     "id": 47,
@@ -1579,7 +1579,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b19.jpg"
+    "image": "/questions/b19.jpg"
   },
   {
     "id": 48,
@@ -1606,7 +1606,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b20.jpg"
+    "image": "/questions/b20.jpg"
   },
   {
     "id": 49,
@@ -1641,7 +1641,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b21.jpg"
+    "image": "/questions/b21.jpg"
   },
   {
     "id": 50,
@@ -1676,7 +1676,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b22.jpg"
+    "image": "/questions/b22.jpg"
   },
   {
     "id": 51,
@@ -1711,7 +1711,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b23.jpg"
+    "image": "/questions/b23.jpg"
   },
   {
     "id": 52,
@@ -1780,7 +1780,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b24.jpg"
+    "image": "/questions/b24.jpg"
   },
   {
     "id": 54,
@@ -1815,7 +1815,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b25.jpg"
+    "image": "/questions/b25.jpg"
   },
   {
     "id": 55,
@@ -1850,7 +1850,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a3.jpg"
+    "image": "/questions/a3.jpg"
   },
   {
     "id": 56,
@@ -1885,7 +1885,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b26.jpg"
+    "image": "/questions/b26.jpg"
   },
   {
     "id": 57,
@@ -1912,7 +1912,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a4.jpg"
+    "image": "/questions/a4.jpg"
   },
   {
     "id": 58,
@@ -1947,7 +1947,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b27.jpg"
+    "image": "/questions/b27.jpg"
   },
   {
     "id": 59,
@@ -1982,7 +1982,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b28.jpg"
+    "image": "/questions/b28.jpg"
   },
   {
     "id": 60,
@@ -2017,7 +2017,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b29.jpg"
+    "image": "/questions/b29.jpg"
   },
   {
     "id": 61,
@@ -2120,7 +2120,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b30.jpg"
+    "image": "/questions/b30.jpg"
   },
   {
     "id": 64,
@@ -2155,7 +2155,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b31.jpg"
+    "image": "/questions/b31.jpg"
   },
   {
     "id": 65,
@@ -2190,7 +2190,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b32.jpg"
+    "image": "/questions/b32.jpg"
   },
   {
     "id": 66,
@@ -2225,7 +2225,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b33.jpg"
+    "image": "/questions/b33.jpg"
   },
   {
     "id": 67,
@@ -2260,7 +2260,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b34.jpg"
+    "image": "/questions/b34.jpg"
   },
   {
     "id": 68,
@@ -2295,7 +2295,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b35.jpg"
+    "image": "/questions/b35.jpg"
   },
   {
     "id": 69,
@@ -2330,7 +2330,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b36.jpg"
+    "image": "/questions/b36.jpg"
   },
   {
     "id": 70,
@@ -2357,7 +2357,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b37.jpg"
+    "image": "/questions/b37.jpg"
   },
   {
     "id": 71,
@@ -2384,7 +2384,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b38.jpg"
+    "image": "/questions/b38.jpg"
   },
   {
     "id": 72,
@@ -2419,7 +2419,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b39.jpg"
+    "image": "/questions/b39.jpg"
   },
   {
     "id": 73,
@@ -2454,7 +2454,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b40.jpg"
+    "image": "/questions/b40.jpg"
   },
   {
     "id": 74,
@@ -2489,7 +2489,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b41.jpg"
+    "image": "/questions/b41.jpg"
   },
   {
     "id": 75,
@@ -2524,7 +2524,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b42.jpg"
+    "image": "/questions/b42.jpg"
   },
   {
     "id": 76,
@@ -3249,7 +3249,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a5.jpg"
+    "image": "/questions/a5.jpg"
   },
   {
     "id": 98,
@@ -3284,7 +3284,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a6.jpg"
+    "image": "/questions/a6.jpg"
   },
   {
     "id": 99,
@@ -3319,7 +3319,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a7.jpg"
+    "image": "/questions/a7.jpg"
   },
   {
     "id": 100,
@@ -3474,7 +3474,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a8.jpg"
+    "image": "/questions/a8.jpg"
   },
   {
     "id": 105,
@@ -3577,7 +3577,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a9.jpg"
+    "image": "/questions/a9.jpg"
   },
   {
     "id": 108,
@@ -3714,7 +3714,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b48.jpg"
+    "image": "/questions/b48.jpg"
   },
   {
     "id": 112,
@@ -4285,7 +4285,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b52.jpg"
+    "image": "/questions/b52.jpg"
   },
   {
     "id": 129,
@@ -4320,7 +4320,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b53.jpg"
+    "image": "/questions/b53.jpg"
   },
   {
     "id": 130,
@@ -4389,7 +4389,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a10.jpg"
+    "image": "/questions/a10.jpg"
   },
   {
     "id": 132,
@@ -4424,7 +4424,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a11.jpg"
+    "image": "/questions/a11.jpg"
   },
   {
     "id": 133,
@@ -4459,7 +4459,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a12.jpg"
+    "image": "/questions/a12.jpg"
   },
   {
     "id": 134,
@@ -4894,7 +4894,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b57.jpg"
+    "image": "/questions/b57.jpg"
   },
   {
     "id": 147,
@@ -4929,7 +4929,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b59.jpg"
+    "image": "/questions/b59.jpg"
   },
   {
     "id": 148,
@@ -4964,7 +4964,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b60.jpg"
+    "image": "/questions/b60.jpg"
   },
   {
     "id": 149,
@@ -4999,7 +4999,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b61.jpg"
+    "image": "/questions/b61.jpg"
   },
   {
     "id": 150,
@@ -5068,7 +5068,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b62.jpg"
+    "image": "/questions/b62.jpg"
   },
   {
     "id": 152,
@@ -5095,7 +5095,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b63.jpg"
+    "image": "/questions/b63.jpg"
   },
   {
     "id": 153,
@@ -5164,7 +5164,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b66.jpg"
+    "image": "/questions/b66.jpg"
   },
   {
     "id": 155,
@@ -5199,7 +5199,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b67.jpg"
+    "image": "/questions/b67.jpg"
   },
   {
     "id": 156,
@@ -5234,7 +5234,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b68.jpg"
+    "image": "/questions/b68.jpg"
   },
   {
     "id": 157,
@@ -5295,7 +5295,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b69.jpg"
+    "image": "/questions/b69.jpg"
   },
   {
     "id": 159,
@@ -5330,7 +5330,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b70.jpg"
+    "image": "/questions/b70.jpg"
   },
   {
     "id": 160,
@@ -5365,7 +5365,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b71.jpg"
+    "image": "/questions/b71.jpg"
   },
   {
     "id": 161,
@@ -5452,7 +5452,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b73.jpg"
+    "image": "/questions/b73.jpg"
   },
   {
     "id": 164,
@@ -5487,7 +5487,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b74.jpg"
+    "image": "/questions/b74.jpg"
   },
   {
     "id": 165,
@@ -5522,7 +5522,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b75.jpg"
+    "image": "/questions/b75.jpg"
   },
   {
     "id": 166,
@@ -5617,7 +5617,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b76.jpg"
+    "image": "/questions/b76.jpg"
   },
   {
     "id": 169,
@@ -5686,7 +5686,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b77.jpg"
+    "image": "/questions/b77.jpg"
   },
   {
     "id": 171,
@@ -5721,7 +5721,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b78.jpg"
+    "image": "/questions/b78.jpg"
   },
   {
     "id": 172,
@@ -5756,7 +5756,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a13.jpg"
+    "image": "/questions/a13.jpg"
   },
   {
     "id": 173,
@@ -5791,7 +5791,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a14.jpg"
+    "image": "/questions/a14.jpg"
   },
   {
     "id": 174,
@@ -5826,7 +5826,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b79.jpg"
+    "image": "/questions/b79.jpg"
   },
   {
     "id": 175,
@@ -5861,7 +5861,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b80.jpg"
+    "image": "/questions/b80.jpg"
   },
   {
     "id": 176,
@@ -5896,7 +5896,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b81.jpg"
+    "image": "/questions/b81.jpg"
   },
   {
     "id": 177,
@@ -6033,7 +6033,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b82.jpg"
+    "image": "/questions/b82.jpg"
   },
   {
     "id": 181,
@@ -6102,7 +6102,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b83.jpg"
+    "image": "/questions/b83.jpg"
   },
   {
     "id": 183,
@@ -6137,7 +6137,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b84.jpg"
+    "image": "/questions/b84.jpg"
   },
   {
     "id": 184,
@@ -6172,7 +6172,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b85.jpg"
+    "image": "/questions/b85.jpg"
   },
   {
     "id": 185,
@@ -6207,7 +6207,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b86.jpg"
+    "image": "/questions/b86.jpg"
   },
   {
     "id": 186,
@@ -6242,7 +6242,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b87.jpg"
+    "image": "/questions/b87.jpg"
   },
   {
     "id": 187,
@@ -6277,7 +6277,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b88.jpg"
+    "image": "/questions/b88.jpg"
   },
   {
     "id": 188,
@@ -6312,7 +6312,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b89.jpg"
+    "image": "/questions/b89.jpg"
   },
   {
     "id": 189,
@@ -6339,7 +6339,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b90.jpg"
+    "image": "/questions/b90.jpg"
   },
   {
     "id": 190,
@@ -6374,7 +6374,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b91.jpg"
+    "image": "/questions/b91.jpg"
   },
   {
     "id": 191,
@@ -6409,7 +6409,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b92.jpg"
+    "image": "/questions/b92.jpg"
   },
   {
     "id": 192,
@@ -6444,7 +6444,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b93.jpg"
+    "image": "/questions/b93.jpg"
   },
   {
     "id": 193,
@@ -6479,7 +6479,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b94.jpg"
+    "image": "/questions/b94.jpg"
   },
   {
     "id": 194,
@@ -6514,7 +6514,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b95.jpg"
+    "image": "/questions/b95.jpg"
   },
   {
     "id": 195,
@@ -6549,7 +6549,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b96.jpg"
+    "image": "/questions/b96.jpg"
   },
   {
     "id": 196,
@@ -6576,7 +6576,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b97.jpg"
+    "image": "/questions/b97.jpg"
   },
   {
     "id": 197,
@@ -6603,7 +6603,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b98.jpg"
+    "image": "/questions/b98.jpg"
   },
   {
     "id": 198,
@@ -6630,7 +6630,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b99.jpg"
+    "image": "/questions/b99.jpg"
   },
   {
     "id": 199,
@@ -6665,7 +6665,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b100.jpg"
+    "image": "/questions/b100.jpg"
   },
   {
     "id": 200,
@@ -6700,7 +6700,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b101.jpg"
+    "image": "/questions/b101.jpg"
   },
   {
     "id": 201,
@@ -6735,7 +6735,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b102.jpg"
+    "image": "/questions/b102.jpg"
   },
   {
     "id": 202,
@@ -6762,7 +6762,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b103.jpg"
+    "image": "/questions/b103.jpg"
   },
   {
     "id": 203,
@@ -6865,7 +6865,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b104.jpg"
+    "image": "/questions/b104.jpg"
   },
   {
     "id": 206,
@@ -6900,7 +6900,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b105.jpg"
+    "image": "/questions/b105.jpg"
   },
   {
     "id": 207,
@@ -6935,7 +6935,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b106.jpg"
+    "image": "/questions/b106.jpg"
   },
   {
     "id": 208,
@@ -7004,7 +7004,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b107.jpg"
+    "image": "/questions/b107.jpg"
   },
   {
     "id": 210,
@@ -7065,7 +7065,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b108.jpg"
+    "image": "/questions/b108.jpg"
   },
   {
     "id": 212,
@@ -7134,7 +7134,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b109.jpg"
+    "image": "/questions/b109.jpg"
   },
   {
     "id": 214,
@@ -7169,7 +7169,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b110.jpg"
+    "image": "/questions/b110.jpg"
   },
   {
     "id": 215,
@@ -7204,7 +7204,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a15.jpg"
+    "image": "/questions/a15.jpg"
   },
   {
     "id": 216,
@@ -7239,7 +7239,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b111.jpg"
+    "image": "/questions/b111.jpg"
   },
   {
     "id": 217,
@@ -7274,7 +7274,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b112.jpg"
+    "image": "/questions/b112.jpg"
   },
   {
     "id": 218,
@@ -7301,7 +7301,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b113.jpg"
+    "image": "/questions/b113.jpg"
   },
   {
     "id": 219,
@@ -7336,7 +7336,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b114.jpg"
+    "image": "/questions/b114.jpg"
   },
   {
     "id": 220,
@@ -7405,7 +7405,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b115.jpg"
+    "image": "/questions/b115.jpg"
   },
   {
     "id": 222,
@@ -7466,7 +7466,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b116.jpg"
+    "image": "/questions/b116.jpg"
   },
   {
     "id": 224,
@@ -7493,7 +7493,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b117.jpg"
+    "image": "/questions/b117.jpg"
   },
   {
     "id": 225,
@@ -7562,7 +7562,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b118.jpg"
+    "image": "/questions/b118.jpg"
   },
   {
     "id": 227,
@@ -7699,7 +7699,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b119.jpg"
+    "image": "/questions/b119.jpg"
   },
   {
     "id": 231,
@@ -7768,7 +7768,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b120.jpg"
+    "image": "/questions/b120.jpg"
   },
   {
     "id": 233,
@@ -7905,7 +7905,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b121.jpg"
+    "image": "/questions/b121.jpg"
   },
   {
     "id": 237,
@@ -7940,7 +7940,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b122.jpg"
+    "image": "/questions/b122.jpg"
   },
   {
     "id": 238,
@@ -7975,7 +7975,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b123.jpg"
+    "image": "/questions/b123.jpg"
   },
   {
     "id": 239,
@@ -8078,7 +8078,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a16.jpg"
+    "image": "/questions/a16.jpg"
   },
   {
     "id": 242,
@@ -8105,7 +8105,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b125.jpg"
+    "image": "/questions/b125.jpg"
   },
   {
     "id": 243,
@@ -8132,7 +8132,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b126.jpg"
+    "image": "/questions/b126.jpg"
   },
   {
     "id": 244,
@@ -8227,7 +8227,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b127.jpg"
+    "image": "/questions/b127.jpg"
   },
   {
     "id": 247,
@@ -8262,7 +8262,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b128.jpg"
+    "image": "/questions/b128.jpg"
   },
   {
     "id": 248,
@@ -8297,7 +8297,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b129.jpg"
+    "image": "/questions/b129.jpg"
   },
   {
     "id": 249,
@@ -8332,7 +8332,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b130.jpg"
+    "image": "/questions/b130.jpg"
   },
   {
     "id": 250,
@@ -8367,7 +8367,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b131.jpg"
+    "image": "/questions/b131.jpg"
   },
   {
     "id": 251,
@@ -8402,7 +8402,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b132.jpg"
+    "image": "/questions/b132.jpg"
   },
   {
     "id": 252,
@@ -8437,7 +8437,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b133.jpg"
+    "image": "/questions/b133.jpg"
   },
   {
     "id": 253,
@@ -8472,7 +8472,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b134.jpg"
+    "image": "/questions/b134.jpg"
   },
   {
     "id": 254,
@@ -8507,7 +8507,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b135.jpg"
+    "image": "/questions/b135.jpg"
   },
   {
     "id": 255,
@@ -8534,7 +8534,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b136.jpg"
+    "image": "/questions/b136.jpg"
   },
   {
     "id": 256,
@@ -8569,7 +8569,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b137.jpg"
+    "image": "/questions/b137.jpg"
   },
   {
     "id": 257,
@@ -8664,7 +8664,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b138.jpg"
+    "image": "/questions/b138.jpg"
   },
   {
     "id": 260,
@@ -8699,7 +8699,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b139.jpg"
+    "image": "/questions/b139.jpg"
   },
   {
     "id": 261,
@@ -8938,7 +8938,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b142.jpg"
+    "image": "/questions/b142.jpg"
   },
   {
     "id": 268,
@@ -9041,7 +9041,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b143.jpg"
+    "image": "/questions/b143.jpg"
   },
   {
     "id": 271,
@@ -9178,7 +9178,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a17.jpg"
+    "image": "/questions/a17.jpg"
   },
   {
     "id": 275,
@@ -9359,7 +9359,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b145.jpg"
+    "image": "/questions/b145.jpg"
   },
   {
     "id": 281,
@@ -9428,7 +9428,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b146.jpg"
+    "image": "/questions/b146.jpg"
   },
   {
     "id": 283,
@@ -9463,7 +9463,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b147.jpg"
+    "image": "/questions/b147.jpg"
   },
   {
     "id": 284,
@@ -9498,7 +9498,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b140.jpg"
+    "image": "/questions/b140.jpg"
   },
   {
     "id": 285,
@@ -9525,7 +9525,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b141.jpg"
+    "image": "/questions/b141.jpg"
   },
   {
     "id": 286,
@@ -9560,7 +9560,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a18.jpg"
+    "image": "/questions/a18.jpg"
   },
   {
     "id": 287,
@@ -9595,7 +9595,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a19.jpg"
+    "image": "/questions/a19.jpg"
   },
   {
     "id": 288,
@@ -9622,7 +9622,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a20.jpg"
+    "image": "/questions/a20.jpg"
   },
   {
     "id": 289,
@@ -9691,7 +9691,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b152.jpg"
+    "image": "/questions/b152.jpg"
   },
   {
     "id": 291,
@@ -9718,7 +9718,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b153.jpg"
+    "image": "/questions/b153.jpg"
   },
   {
     "id": 292,
@@ -9745,7 +9745,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b155.jpg"
+    "image": "/questions/b155.jpg"
   },
   {
     "id": 293,
@@ -9780,7 +9780,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b156.jpg"
+    "image": "/questions/b156.jpg"
   },
   {
     "id": 294,
@@ -9815,7 +9815,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b157.jpg"
+    "image": "/questions/b157.jpg"
   },
   {
     "id": 295,
@@ -9850,7 +9850,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b158.jpg"
+    "image": "/questions/b158.jpg"
   },
   {
     "id": 296,
@@ -9877,7 +9877,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b159.jpg"
+    "image": "/questions/b159.jpg"
   },
   {
     "id": 297,
@@ -9912,7 +9912,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b163.jpg"
+    "image": "/questions/b163.jpg"
   },
   {
     "id": 298,
@@ -9947,7 +9947,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b164.jpg"
+    "image": "/questions/b164.jpg"
   },
   {
     "id": 299,
@@ -9982,7 +9982,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b168.jpg"
+    "image": "/questions/b168.jpg"
   },
   {
     "id": 300,
@@ -10017,7 +10017,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b169.jpg"
+    "image": "/questions/b169.jpg"
   },
   {
     "id": 301,
@@ -10052,7 +10052,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b170.jpg"
+    "image": "/questions/b170.jpg"
   },
   {
     "id": 302,
@@ -10079,7 +10079,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b171.jpg"
+    "image": "/questions/b171.jpg"
   },
   {
     "id": 303,
@@ -10106,7 +10106,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b172.jpg"
+    "image": "/questions/b172.jpg"
   },
   {
     "id": 304,
@@ -10243,7 +10243,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b173.jpg"
+    "image": "/questions/b173.jpg"
   },
   {
     "id": 308,
@@ -10338,7 +10338,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a21.jpg"
+    "image": "/questions/a21.jpg"
   },
   {
     "id": 311,
@@ -10373,7 +10373,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b175.jpg"
+    "image": "/questions/b175.jpg"
   },
   {
     "id": 312,
@@ -10408,7 +10408,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b176.jpg"
+    "image": "/questions/b176.jpg"
   },
   {
     "id": 313,
@@ -10571,7 +10571,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b179.jpg"
+    "image": "/questions/b179.jpg"
   },
   {
     "id": 318,
@@ -10598,7 +10598,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b180.jpg"
+    "image": "/questions/b180.jpg"
   },
   {
     "id": 319,
@@ -10701,7 +10701,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a22.jpg"
+    "image": "/questions/a22.jpg"
   },
   {
     "id": 322,
@@ -10804,7 +10804,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b182.jpg"
+    "image": "/questions/b182.jpg"
   },
   {
     "id": 325,
@@ -10839,7 +10839,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b183.jpg"
+    "image": "/questions/b183.jpg"
   },
   {
     "id": 326,
@@ -10900,7 +10900,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b184.jpg"
+    "image": "/questions/b184.jpg"
   },
   {
     "id": 328,
@@ -10935,7 +10935,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b185.jpg"
+    "image": "/questions/b185.jpg"
   },
   {
     "id": 329,
@@ -10970,7 +10970,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b186.jpg"
+    "image": "/questions/b186.jpg"
   },
   {
     "id": 330,
@@ -11005,7 +11005,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b187.jpg"
+    "image": "/questions/b187.jpg"
   },
   {
     "id": 331,
@@ -11040,7 +11040,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a23.jpg"
+    "image": "/questions/a23.jpg"
   },
   {
     "id": 332,
@@ -11075,7 +11075,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a24.jpg"
+    "image": "/questions/a24.jpg"
   },
   {
     "id": 333,
@@ -11110,7 +11110,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a25.jpg"
+    "image": "/questions/a25.jpg"
   },
   {
     "id": 334,
@@ -11179,7 +11179,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a26.jpg"
+    "image": "/questions/a26.jpg"
   },
   {
     "id": 336,
@@ -11240,7 +11240,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a27.jpg"
+    "image": "/questions/a27.jpg"
   },
   {
     "id": 338,
@@ -11275,7 +11275,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a28.jpg"
+    "image": "/questions/a28.jpg"
   },
   {
     "id": 339,
@@ -11310,7 +11310,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b193.jpg"
+    "image": "/questions/b193.jpg"
   },
   {
     "id": 340,
@@ -11413,7 +11413,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b195.jpg"
+    "image": "/questions/b195.jpg"
   },
   {
     "id": 343,
@@ -11448,7 +11448,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b196.jpg"
+    "image": "/questions/b196.jpg"
   },
   {
     "id": 344,
@@ -11483,7 +11483,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a29.jpg"
+    "image": "/questions/a29.jpg"
   },
   {
     "id": 345,
@@ -11646,7 +11646,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b197.jpg"
+    "image": "/questions/b197.jpg"
   },
   {
     "id": 350,
@@ -11681,7 +11681,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b199.jpg"
+    "image": "/questions/b199.jpg"
   },
   {
     "id": 351,
@@ -11750,7 +11750,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b201.jpg"
+    "image": "/questions/b201.jpg"
   },
   {
     "id": 353,
@@ -11785,7 +11785,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a30.jpg"
+    "image": "/questions/a30.jpg"
   },
   {
     "id": 354,
@@ -11846,7 +11846,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a31.jpg"
+    "image": "/questions/a31.jpg"
   },
   {
     "id": 356,
@@ -11881,7 +11881,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a32.jpg"
+    "image": "/questions/a32.jpg"
   },
   {
     "id": 357,
@@ -11942,7 +11942,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a33.jpg"
+    "image": "/questions/a33.jpg"
   },
   {
     "id": 359,
@@ -12207,7 +12207,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a33.jpg"
+    "image": "/questions/a33.jpg"
   },
   {
     "id": 367,
@@ -12242,7 +12242,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a34.jpg"
+    "image": "/questions/a34.jpg"
   },
   {
     "id": 368,
@@ -12329,7 +12329,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a35.jpg"
+    "image": "/questions/a35.jpg"
   },
   {
     "id": 371,
@@ -12602,7 +12602,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a36.jpg"
+    "image": "/questions/a36.jpg"
   },
   {
     "id": 379,
@@ -12671,7 +12671,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a37.jpg"
+    "image": "/questions/a37.jpg"
   },
   {
     "id": 381,
@@ -12706,7 +12706,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a38.jpg"
+    "image": "/questions/a38.jpg"
   },
   {
     "id": 382,
@@ -12775,7 +12775,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a39.jpg"
+    "image": "/questions/a39.jpg"
   },
   {
     "id": 384,
@@ -12878,7 +12878,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a40.jpg"
+    "image": "/questions/a40.jpg"
   },
   {
     "id": 387,
@@ -13041,7 +13041,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a41.jpg"
+    "image": "/questions/a41.jpg"
   },
   {
     "id": 392,
@@ -13358,7 +13358,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a42.jpg"
+    "image": "/questions/a42.jpg"
   },
   {
     "id": 402,
@@ -13393,7 +13393,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a43.jpg"
+    "image": "/questions/a43.jpg"
   },
   {
     "id": 403,
@@ -13462,7 +13462,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a44.jpg"
+    "image": "/questions/a44.jpg"
   },
   {
     "id": 405,
@@ -13591,7 +13591,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a45.jpg"
+    "image": "/questions/a45.jpg"
   },
   {
     "id": 409,
@@ -13626,7 +13626,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a46.jpg"
+    "image": "/questions/a46.jpg"
   },
   {
     "id": 410,
@@ -13695,7 +13695,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a47.jpg"
+    "image": "/questions/a47.jpg"
   },
   {
     "id": 412,
@@ -13730,7 +13730,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a48.jpg"
+    "image": "/questions/a48.jpg"
   },
   {
     "id": 413,
@@ -13799,7 +13799,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a49.jpg"
+    "image": "/questions/a49.jpg"
   },
   {
     "id": 415,
@@ -13834,7 +13834,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a50.jpg"
+    "image": "/questions/a50.jpg"
   },
   {
     "id": 416,
@@ -14005,7 +14005,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a51.jpg"
+    "image": "/questions/a51.jpg"
   },
   {
     "id": 421,
@@ -14040,7 +14040,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a52.jpg"
+    "image": "/questions/a52.jpg"
   },
   {
     "id": 422,
@@ -14075,7 +14075,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a53.jpg"
+    "image": "/questions/a53.jpg"
   },
   {
     "id": 423,
@@ -14110,7 +14110,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a54.jpg"
+    "image": "/questions/a54.jpg"
   },
   {
     "id": 424,
@@ -14179,7 +14179,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a55.jpg"
+    "image": "/questions/a55.jpg"
   },
   {
     "id": 426,
@@ -14248,7 +14248,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a56.jpg"
+    "image": "/questions/a56.jpg"
   },
   {
     "id": 428,
@@ -14555,7 +14555,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a57.jpg"
+    "image": "/questions/a57.jpg"
   },
   {
     "id": 437,
@@ -14616,7 +14616,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a58.jpg"
+    "image": "/questions/a58.jpg"
   },
   {
     "id": 439,
@@ -14643,7 +14643,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a59.jpg"
+    "image": "/questions/a59.jpg"
   },
   {
     "id": 440,
@@ -14670,7 +14670,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a60.jpg"
+    "image": "/questions/a60.jpg"
   },
   {
     "id": 441,
@@ -14697,7 +14697,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a61.jpg"
+    "image": "/questions/a61.jpg"
   },
   {
     "id": 442,
@@ -14732,7 +14732,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a62.jpg"
+    "image": "/questions/a62.jpg"
   },
   {
     "id": 443,
@@ -14759,7 +14759,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a63.jpg"
+    "image": "/questions/a63.jpg"
   },
   {
     "id": 444,
@@ -14880,7 +14880,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a64.jpg"
+    "image": "/questions/a64.jpg"
   },
   {
     "id": 448,
@@ -14983,7 +14983,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a65.jpg"
+    "image": "/questions/a65.jpg"
   },
   {
     "id": 451,
@@ -15112,7 +15112,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/a66.jpg"
+    "image": "/questions/a66.jpg"
   },
   {
     "id": 455,
@@ -15147,7 +15147,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b72.jpg"
+    "image": "/questions/b72.jpg"
   },
   {
     "id": 456,
@@ -15182,7 +15182,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b223.jpg"
+    "image": "/questions/b223.jpg"
   },
   {
     "id": 457,
@@ -15217,7 +15217,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b224.jpg"
+    "image": "/questions/b224.jpg"
   },
   {
     "id": 458,
@@ -15252,7 +15252,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b225.jpg"
+    "image": "/questions/b225.jpg"
   },
   {
     "id": 459,
@@ -15287,7 +15287,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b226.jpg"
+    "image": "/questions/b226.jpg"
   },
   {
     "id": 460,
@@ -15322,7 +15322,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b227.jpg"
+    "image": "/questions/b227.jpg"
   },
   {
     "id": 461,
@@ -15357,7 +15357,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b228.jpg"
+    "image": "/questions/b228.jpg"
   },
   {
     "id": 462,
@@ -15392,7 +15392,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b229.jpg"
+    "image": "/questions/b229.jpg"
   },
   {
     "id": 463,
@@ -15427,7 +15427,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b230.jpg"
+    "image": "/questions/b230.jpg"
   },
   {
     "id": 464,
@@ -15462,7 +15462,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b231.jpg"
+    "image": "/questions/b231.jpg"
   },
   {
     "id": 465,
@@ -15497,7 +15497,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b232.jpg"
+    "image": "/questions/b232.jpg"
   },
   {
     "id": 466,
@@ -15532,7 +15532,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b233.jpg"
+    "image": "/questions/b233.jpg"
   },
   {
     "id": 467,
@@ -15567,7 +15567,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b234.jpg"
+    "image": "/questions/b234.jpg"
   },
   {
     "id": 468,
@@ -15602,7 +15602,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b235.jpg"
+    "image": "/questions/b235.jpg"
   },
   {
     "id": 469,
@@ -15637,7 +15637,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b236.jpg"
+    "image": "/questions/b236.jpg"
   },
   {
     "id": 470,
@@ -15672,7 +15672,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b237.jpg"
+    "image": "/questions/b237.jpg"
   },
   {
     "id": 471,
@@ -15707,7 +15707,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b238.jpg"
+    "image": "/questions/b238.jpg"
   },
   {
     "id": 472,
@@ -15742,7 +15742,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b239.jpg"
+    "image": "/questions/b239.jpg"
   },
   {
     "id": 473,
@@ -15777,7 +15777,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b240.jpg"
+    "image": "/questions/b240.jpg"
   },
   {
     "id": 474,
@@ -15812,7 +15812,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b241.jpg"
+    "image": "/questions/b241.jpg"
   },
   {
     "id": 475,
@@ -15847,7 +15847,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b242.jpg"
+    "image": "/questions/b242.jpg"
   },
   {
     "id": 476,
@@ -15882,7 +15882,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b243.jpg"
+    "image": "/questions/b243.jpg"
   },
   {
     "id": 477,
@@ -15917,7 +15917,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b244.jpg"
+    "image": "/questions/b244.jpg"
   },
   {
     "id": 478,
@@ -15952,7 +15952,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b245.jpg"
+    "image": "/questions/b245.jpg"
   },
   {
     "id": 479,
@@ -15979,7 +15979,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b246.jpg"
+    "image": "/questions/b246.jpg"
   },
   {
     "id": 480,
@@ -16014,7 +16014,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b247.jpg"
+    "image": "/questions/b247.jpg"
   },
   {
     "id": 481,
@@ -16049,7 +16049,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b248.jpg"
+    "image": "/questions/b248.jpg"
   },
   {
     "id": 482,
@@ -16084,7 +16084,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b249.jpg"
+    "image": "/questions/b249.jpg"
   },
   {
     "id": 483,
@@ -16111,7 +16111,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b250.jpg"
+    "image": "/questions/b250.jpg"
   },
   {
     "id": 484,
@@ -16146,7 +16146,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b251.jpg"
+    "image": "/questions/b251.jpg"
   },
   {
     "id": 485,
@@ -16181,7 +16181,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b252.jpg"
+    "image": "/questions/b252.jpg"
   },
   {
     "id": 486,
@@ -16216,7 +16216,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b253.jpg"
+    "image": "/questions/b253.jpg"
   },
   {
     "id": 487,
@@ -16251,7 +16251,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b254.jpg"
+    "image": "/questions/b254.jpg"
   },
   {
     "id": 488,
@@ -16286,7 +16286,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b255.jpg"
+    "image": "/questions/b255.jpg"
   },
   {
     "id": 489,
@@ -16321,7 +16321,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b256.jpg"
+    "image": "/questions/b256.jpg"
   },
   {
     "id": 490,
@@ -16356,7 +16356,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b257.jpg"
+    "image": "/questions/b257.jpg"
   },
   {
     "id": 491,
@@ -16391,7 +16391,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b258.jpg"
+    "image": "/questions/b258.jpg"
   },
   {
     "id": 492,
@@ -16426,7 +16426,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b259.jpg"
+    "image": "/questions/b259.jpg"
   },
   {
     "id": 493,
@@ -16453,7 +16453,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b260.jpg"
+    "image": "/questions/b260.jpg"
   },
   {
     "id": 494,
@@ -16488,7 +16488,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b261.jpg"
+    "image": "/questions/b261.jpg"
   },
   {
     "id": 495,
@@ -16523,7 +16523,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b262.jpg"
+    "image": "/questions/b262.jpg"
   },
   {
     "id": 496,
@@ -16558,7 +16558,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b263.jpg"
+    "image": "/questions/b263.jpg"
   },
   {
     "id": 497,
@@ -16593,7 +16593,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b264.jpg"
+    "image": "/questions/b264.jpg"
   },
   {
     "id": 498,
@@ -16628,7 +16628,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b265.jpg"
+    "image": "/questions/b265.jpg"
   },
   {
     "id": 499,
@@ -16655,7 +16655,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b266.jpg"
+    "image": "/questions/b266.jpg"
   },
   {
     "id": 500,
@@ -16690,7 +16690,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b267.jpg"
+    "image": "/questions/b267.jpg"
   },
   {
     "id": 501,
@@ -16725,7 +16725,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b268.jpg"
+    "image": "/questions/b268.jpg"
   },
   {
     "id": 502,
@@ -16760,7 +16760,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b269.jpg"
+    "image": "/questions/b269.jpg"
   },
   {
     "id": 503,
@@ -16795,7 +16795,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b270.jpg"
+    "image": "/questions/b270.jpg"
   },
   {
     "id": 504,
@@ -16830,7 +16830,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b271.jpg"
+    "image": "/questions/b271.jpg"
   },
   {
     "id": 505,
@@ -16865,7 +16865,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b272.jpg"
+    "image": "/questions/b272.jpg"
   },
   {
     "id": 506,
@@ -16900,7 +16900,7 @@ export const questions: Question[] = [
         "correct": true
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b273.jpg"
+    "image": "/questions/b273.jpg"
   },
   {
     "id": 507,
@@ -16935,7 +16935,7 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b274.jpg"
+    "image": "/questions/b274.jpg"
   },
   {
     "id": 508,
@@ -16970,6 +16970,6 @@ export const questions: Question[] = [
         "correct": false
       }
     ],
-    "image": "https://www.testdeconducir.com.ar/images/preguntas/b275.jpg"
+    "image": "/questions/b275.jpg"
   }
 ];

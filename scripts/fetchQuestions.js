@@ -6,6 +6,28 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Local assets directory for downloaded question images
+const PUBLIC_ASSETS_DIR = path.join(__dirname, '..', 'public', 'questions');
+
+function ensureDirSync(dir) {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+}
+
+async function downloadFile(url, dest) {
+  const res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`Failed to download ${url}: ${res.status} ${res.statusText}`);
+  }
+  const fileStream = fs.createWriteStream(dest);
+  return new Promise((resolve, reject) => {
+    res.body.pipe(fileStream);
+    res.body.on('error', reject);
+    fileStream.on('finish', resolve);
+  });
+}
+
 // Common Spanish words/phrases and their translations
 const translations = {
   en: {
@@ -594,6 +616,8 @@ async function translateText(text, targetLang) {
 
 async function fetchQuestions() {
   try {
+    ensureDirSync(PUBLIC_ASSETS_DIR);
+
     const response = await fetch('https://www.testdeconducir.com.ar/c.php?c=a');
     const data = await response.json();
 
@@ -644,9 +668,30 @@ async function fetchQuestions() {
         answers
       };
 
-      // Add image if present
-      if (imageUrl) {
-        question.image = imageUrl;
+      // Add image if present and download it locally
+      if (imageUrl && typeof imageUrl === 'string') {
+        try {
+          // Derive a safe filename from URL
+          const urlObj = new URL(imageUrl);
+          const baseNameRaw = path.basename(urlObj.pathname);
+          const baseName = baseNameRaw || `q${i + 1}.jpg`;
+          const localFsPath = path.join(PUBLIC_ASSETS_DIR, baseName);
+          const localPublicPath = `/questions/${baseName}`;
+
+          // Only download if not already present
+          if (!fs.existsSync(localFsPath)) {
+            await downloadFile(imageUrl, localFsPath);
+            console.log(`Downloaded: ${imageUrl} -> ${localPublicPath}`);
+          } else {
+            console.log(`Exists, skip download: ${localPublicPath}`);
+          }
+
+          question.image = localPublicPath;
+        } catch (e) {
+          console.warn(`Image download failed for ${imageUrl}:`, e.message);
+          // Fallback to remote URL if download fails
+          question.image = imageUrl;
+        }
       }
 
       questions.push(question);
