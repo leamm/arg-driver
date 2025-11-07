@@ -23,8 +23,8 @@ export const QuestionCard = ({
   onAnswerSelect,
 }: QuestionCardProps) => {
   return (
-    <div className="w-full max-w-4xl mx-auto">
-      <Card className="p-8">
+    <div className="w-full">
+      <Card className="p-4">
         <div className="mb-6">
           <div className="flex items-center justify-between mb-4">
             <span className="text-sm font-medium text-muted-foreground">
@@ -34,7 +34,7 @@ export const QuestionCard = ({
             </span>
           </div>
           <h2 className="text-2xl font-semibold mb-6">{question.question[language]}</h2>
-          
+
           {question.image && (
             <div className="mb-6 flex justify-center">
               <img
