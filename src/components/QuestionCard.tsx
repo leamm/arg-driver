@@ -57,7 +57,7 @@ export const QuestionCard = ({
               <Button
                 key={index}
                 variant={showCorrect ? "default" : showWrong ? "destructive" : isSelected ? "secondary" : "outline"}
-                className={`w-full justify-start text-left h-auto py-4 px-6 ${
+                className={`w-full justify-start text-left h-auto py-4 px-6 whitespace-normal ${
                   showCorrect ? "bg-success hover:bg-success" : ""
                 }`}
                 onClick={() => !showResult && onAnswerSelect(index)}
