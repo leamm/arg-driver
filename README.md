@@ -62,7 +62,27 @@ This project is built with:
 
 ## How can I deploy this project?
 
+### Deploy with Lovable
+
 Simply open [Lovable](https://lovable.dev/projects/64a3b59c-27a9-4582-a723-53c7f7ac4915) and click on Share -> Publish.
+
+### Deploy to GitHub Pages
+
+This project is configured to deploy to GitHub Pages. To deploy:
+
+```sh
+# Install dependencies if you haven't already
+npm install
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+This will build the project and deploy it to the `gh-pages` branch of your repository.
+
+The deployed site will be available at:
+- https://leamm.github.io/arg-driver/
+- http://arg-driver.evgxx.com/ (custom domain)
 
 ## Can I connect a custom domain to my Lovable project?
 
