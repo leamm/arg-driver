@@ -32,6 +32,15 @@ export const Header = () => {
             </li>
             <li>
               <NavLink 
+                to="/all" 
+                className="text-header-foreground hover:text-primary transition-colors"
+                activeClassName="font-bold text-primary"
+              >
+                Todas
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
                 to="/statistics" 
                 className="text-header-foreground hover:text-primary transition-colors"
                 activeClassName="font-bold text-primary"
