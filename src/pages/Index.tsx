@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { QuestionNavigation } from "@/components/QuestionNavigation";
 import { updateQuestionStat, addTestStat } from "@/utils/statistics";
-import { RotateCcw } from "lucide-react";
 
 const STORAGE_KEY = "argdriver_test_state_v1";
 
@@ -200,7 +199,9 @@ const Index = () => {
     setTestCompleted(false);
     try {
       localStorage.removeItem(STORAGE_KEY);
-    } catch {}
+    } catch (e) {
+      // ignore localStorage errors (e.g., disabled or unavailable)
+    }
   };
 
   const handleQuestionSelect = (index: number) => {
