@@ -57,15 +57,17 @@ const Favorites = () => {
                     aria-label={texts.remove[language]}
                   >
                     <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
-                    <span className="hidden sm:inline">{texts.remove[language]}</span>
                   </Button>
                 </div>
                 {q.image && (
                   <img src={q.image} alt="Question" className="w-full h-auto rounded" />
                 )}
-                <ul className="list-disc pl-5 text-sm text-muted-foreground">
+                <ul className="space-y-2">
                   {q.answers.map((a, idx) => (
-                    <li key={idx}>{a.text[language]}</li>
+                    <li key={idx} className={`px-3 py-2 rounded border ${a.correct ? "bg-emerald-50 border-emerald-200" : "bg-background"}`}>
+                      <span className="font-semibold mr-2">{String.fromCharCode(65 + idx)}.</span>
+                      <span>{a.text[language]}</span>
+                    </li>
                   ))}
                 </ul>
               </Card>

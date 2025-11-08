@@ -7,8 +7,10 @@ import { questions } from "@/data/questions";
 import { Button } from "@/components/ui/button";
 import { LanguageSelector } from "@/components/LanguageSelector";
 import { QuestionNavigation } from "@/components/QuestionNavigation";
-import { updateQuestionStat, addTestStat } from "@/utils/statistics";
+import { updateQuestionStat, addTestStat, getQuestionAttempts } from "@/utils/statistics";
 import { getFavoriteIds, toggleFavorite } from "@/utils/favorites";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import { format } from "date-fns";
 
 const STORAGE_KEY = "argdriver_test_state_v1";
 
@@ -242,6 +244,17 @@ const Index = () => {
     );
   }
 
+  // Answer history for the current question (like on "Todas las preguntas")
+  const attempts = getQuestionAttempts(currentQuestion.id);
+  const last = attempts.length ? attempts[attempts.length - 1] : undefined;
+
+  const historyLabel = last
+    ? `${(language === "es" && "Última respuesta:") || (language === "en" && "Last answer:") || "Последний ответ:"} ${format(new Date(last.date), "dd/MM/yyyy HH:mm")} • ${last.correct ? ((language === "es" && "Correcta") || (language === "en" && "Correct") || "Верно") : ((language === "es" && "Incorrecta") || (language === "en" && "Incorrect") || "Неверно")}`
+    : (language === "es" && "Nunca respondida") || (language === "en" && "Never answered") || "Никогда не отвечал";
+
+  const MAX_DOTS = 12;
+  const dots = attempts.slice(-MAX_DOTS);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -283,6 +296,25 @@ const Index = () => {
                 });
               }}
             />
+
+            <div className="p-4 rounded-lg border bg-card">
+              <div className="text-xs text-muted-foreground">{historyLabel}</div>
+              <div className="flex items-center gap-1 mt-3 flex-wrap">
+                {dots.length === 0 && <span className="text-xs text-muted-foreground">—</span>}
+                {dots.map((a, i) => {
+                  const color = a.correct ? "bg-green-500" : "bg-red-500";
+                  const label = `${a.correct ? "✔" : "✘"} ${format(new Date(a.date), "dd/MM/yyyy HH:mm")}`;
+                  return (
+                    <Tooltip key={i}>
+                      <TooltipTrigger asChild>
+                        <span className={`w-2.5 h-2.5 rounded-full ${color}`} aria-label={label} />
+                      </TooltipTrigger>
+                      <TooltipContent>{label}</TooltipContent>
+                    </Tooltip>
+                  );
+                })}
+              </div>
+            </div>
 
             <div className="bg-card p-4 rounded-lg border flex items-center justify-between">
               <LanguageSelector 

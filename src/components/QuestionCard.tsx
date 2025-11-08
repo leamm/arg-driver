@@ -44,10 +44,6 @@ export const QuestionCard = ({
                 aria-label={isFavorite ? (language === "es" ? "Quitar de interesantes" : language === "ru" ? "Убрать из избранного" : "Remove from favorites") : (language === "es" ? "Marcar como interesante" : language === "ru" ? "Добавить в избранное" : "Mark as favorite")}
               >
                 <Star className={`h-4 w-4 ${isFavorite ? "text-yellow-500 fill-yellow-500" : ""}`} />
-                <span className="hidden sm:inline">
-                  {isFavorite && (language === "es" ? "Interesante" : language === "ru" ? "В избранном" : "Favorited")}
-                  {!isFavorite && (language === "es" ? "Marcar" : language === "ru" ? "Отметить" : "Mark")}
-                </span>
               </Button>
             )}
           </div>
