@@ -1364,8 +1364,8 @@ export const questions: Question[] = [
     "id": 41,
     "question": {
       "es": "Es correcto el desplazamiento del motociclista que circula con el casco puesto y las luces encendidas.",
-      "en": "The movement of the motorcyclist wearing a helmet and with the lights on is correct.",
-      "ru": "Правильное движение мо��оциклиста, который едет в шлеме и с включенными огнями."
+      "en": "The motorcyclist’s movement, wearing a helmet and with the lights on, is correct",
+      "ru": "Правильное движение мотоциклиста, который едет в шлеме и с включенными огнями."
     },
     "answers": [
       {
@@ -1427,7 +1427,7 @@ export const questions: Question[] = [
     "question": {
       "es": "¿Este ciclorodado con pedaleo asistido eléctricamente (bicicleta eléctrica) puede circular por este carril?",
       "en": "Can this electric-assisted pedaling bicycle circulate in this lane?",
-      "ru": "Может ли этот электровелосипед (велосипед с электрическим педалированием) двигаться по этой полосе?"
+      "ru": "Может ли этот электровелосипед (с педальным ассистом) двигаться по этой полосе?"
     },
     "answers": [
       {
@@ -1469,7 +1469,7 @@ export const questions: Question[] = [
         "text": {
           "es": "No, ya que es de uso exclusivo de bicicletas.",
           "en": "No, as it is for the exclusive use of bicycles.",
-          "ru": "Нет, так как она предназначе��а исключительно для велосипедов."
+          "ru": "Нет, так как она предназначена исключительно для велосипедов."
         },
         "correct": true
       },
@@ -1539,7 +1539,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Detener el vehículo para que el peatón termine de cruzar y, antes de avanzar, hacer contacto visual con los peatones que aún no comenzaron a cruzar, aun sabiendo que obstruiré por un momento la bocacalle.",
           "en": "Stop the vehicle so that the pedestrian can finish crossing and, before advancing, make eye contact with the pedestrians who have not yet started to cross, even knowing that I will obstruct the intersection for a moment.",
-          "ru": "Остановить транспортное средство, чтобы пешеход закончил переход, и перед тем, как продвинуться, установить з��ительный контакт с пешеходами, которые еще не начали переходить, даже зная, что я на мгновение заблокирую перекресток."
+          "ru": "Остановить транспортное средство, чтобы пешеход закончил переход, и перед тем, как продвинуться, установить зрительный контакт с пешеходами, которые еще не начали переходить, даже зная, что я на мгновение заблокирую перекресток."
         },
         "correct": true
       },
@@ -1593,7 +1593,7 @@ export const questions: Question[] = [
         "text": {
           "es": "No, pero si el peatón se encuentra cruzando, el conductor debe dejarlo pasar para no producir un siniestro vial.",
           "en": "No, but if the pedestrian is crossing, the driver must let them pass to avoid causing a traffic accident.",
-          "ru": "Нет, но если пешеход пересекает, водитель должен его пропустить, чтобы не произвест�� дорожно-транспортное происшествие."
+          "ru": "Нет, но если пешеход пересекает, водитель должен его пропустить, чтобы не произвести дорожно-транспортное происшествие."
         },
         "correct": false
       },
@@ -1837,7 +1837,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Los motovehículos A y B .",
           "en": "Motorcycles A and B.",
-          "ru": "Мотоцикл�� A и B."
+          "ru": "Мотоциклы A и B."
         },
         "correct": false
       },
@@ -1954,7 +1954,7 @@ export const questions: Question[] = [
     "question": {
       "es": "¿Qué indica la señal horizontal de color rojo que se encuentra demarcada sobre la calzada?",
       "en": "What does the horizontal red sign marked on the roadway indicate?",
-      "ru": "Что указывает горизонтальны�� знак красного цвета, который обозначен на проезжей части?"
+      "ru": "Что указывает горизонтальный знак красного цвета, который обозначен на проезжей части?"
     },
     "answers": [
       {
@@ -2081,7 +2081,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Lugar por donde circulan ambulancias, bomberos y/o vehículos policiales, en cumplimiento o no de sus funciones.",
           "en": "Place where ambulances, firefighters, and/or police vehicles circulate, whether or not fulfilling their functions.",
-          "ru": "Место, по которому движутся ambulancias, пожарные и/или полицейские автомобили, выполняя или не выполняя свои функции."
+          "ru": "Место, по которому движутся скорые помощи, пожарные и/или полицейские автомобили, выполняя или не выполняя свои функции."
         },
         "correct": false
       }
@@ -2099,7 +2099,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Sí, siempre que señalice la maniobra con anticipación.",
           "en": "Yes, as long as it signals the maneuver in advance.",
-          "ru": "Да, при условии, что он зар��нее сигнализирует о маневре."
+          "ru": "Да, при условии, что он заранее сигнализирует о маневре."
         },
         "correct": false
       },
@@ -2317,7 +2317,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Reducir la velocidad y radio de giro de los vehículos.",
           "en": "Reduce the speed and turning radius of vehicles.",
-          "ru": "Снизить скорость и радиу�� поворота транспортных средств."
+          "ru": "Снизить скорость и радиус поворота транспортных средств."
         },
         "correct": true
       },
@@ -2599,7 +2599,7 @@ export const questions: Question[] = [
     "question": {
       "es": "En un procedimiento judicial de un siniestro vial, al ser convocados en carácter de testigo, no es obligatorio presentarse a declarar en la Fiscalía correspondiente.",
       "en": "In a judicial procedure of a traffic accident, when summoned as a witness, it is not mandatory to appear to testify at the corresponding Prosecutor's Office.",
-      "ru": "В судебном производстве по дорожному происшествию, будучи вызванны�� в качестве свидетеля, не обязательно являться для дачи показаний в соответствующую прокуратуру."
+      "ru": "В судебном производстве по дорожному происшествию, будучи вызванным в качестве свидетеля, не обязательно являться для дачи показаний в соответствующую прокуратуру."
     },
     "answers": [
       {
@@ -2685,7 +2685,7 @@ export const questions: Question[] = [
     "question": {
       "es": "En caso de participar en un siniestro vial, en el que resultaron personas heridas, el personal policial que acuda al lugar se encargará de preservar la escena del hecho, brindando los medios para que los servicios de emergencia atiendan a los heridos y resguardando los vehículos y otras pruebas del incidente para una adecuada resolución del caso.",
       "en": "In case of participating in a traffic accident where people were injured, the police personnel who arrive at the scene will be responsible for preserving the scene of the incident, providing means for emergency services to attend to the injured, and securing the vehicles and other evidence of the incident for an adequate resolution of the case.",
-      "ru": "В случае участия в дорожном происшествии, в котором есть раненые, полиция, прибывшая на место, позаботится о сохранении места происшествия, предоставив средства для того, чтобы службы экстренной помощи могли оказать помощь раненым, и охраняя транспортные средства и другие доказ��тельства инцидента для надлежащего разрешения дела."
+      "ru": "В случае участия в дорожном происшествии, в котором есть раненые, полиция, прибывшая на место, позаботится о сохранении места происшествия, предоставив средства для того, чтобы службы экстренной помощи могли оказать помощь раненым, и охраняя транспортные средства и другие доказательства инцидента для надлежащего разрешения дела."
     },
     "answers": [
       {
@@ -2813,7 +2813,7 @@ export const questions: Question[] = [
     "question": {
       "es": "En caso de participar en un siniestro vial, es recomendable que quien llame por teléfono al servicio de emergencias (107), indique con claridad:",
       "en": "In case of participating in a traffic accident, it is recommended that the person calling the emergency service (107) clearly indicate:",
-      "ru": "В сл��чае участия в дорожном происшествии рекомендуется, чтобы тот, кто звонит в службу экстренной помощи (107), четко указал:"
+      "ru": "В случае участия в дорожном происшествии рекомендуется, чтобы тот, кто звонит в службу экстренной помощи (107), четко указал:"
     },
     "answers": [
       {
@@ -2915,7 +2915,7 @@ export const questions: Question[] = [
     "question": {
       "es": "¿Quién es el responsable civil por un incidente de tránsito producido por un menor de edad poseedor de una licencia de conducir?",
       "en": "Who is the civil responsible party for a traffic incident caused by a minor holding a driver's license?",
-      "ru": "Кто является гражданским ответственным за дорожно-транспортное пр��исшествие, совершенное несовершеннолетним, имеющим водительские права?"
+      "ru": "Кто является гражданским ответственным за дорожно-транспортное происшествие, совершенное несовершеннолетним, имеющим водительские права?"
     },
     "answers": [
       {
@@ -2990,7 +2990,7 @@ export const questions: Question[] = [
         "text": {
           "es": "No, porque la responsabilidad penal es intransferible.",
           "en": "No, because criminal responsibility is non-transferable.",
-          "ru": "Нет, потому что уголовная ответственность неп��редаваема."
+          "ru": "Нет, потому что уголовная ответственность непередаваема."
         },
         "correct": true
       },
@@ -3210,7 +3210,7 @@ export const questions: Question[] = [
         "text": {
           "es": "2 años, independientemente a la edad.",
           "en": "2 years, regardless of age.",
-          "ru": "2 года, неза��исимо от возраста."
+          "ru": "2 года, независимо от возраста."
         },
         "correct": true
       }
@@ -4238,7 +4238,7 @@ export const questions: Question[] = [
         "text": {
           "es": "No, ya que los efectos del alcohol aparecen durante las primeras horas de su ingesta.",
           "en": "No, since the effects of alcohol appear during the first hours of consumption.",
-          "ru": "Нет, так как эффекты алкоголя проявляются в первые часы после его упот��ебления."
+          "ru": "Нет, так как эффекты алкоголя проявляются в первые часы после его употребления."
         },
         "correct": false
       },
@@ -4299,7 +4299,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Sólo si se ha participado de un siniestro vial.",
           "en": "Only if involved in a traffic accident.",
-          "ru": "Только если он участвовал в дорожно-т��анспортном происшествии."
+          "ru": "Только если он участвовал в дорожно-транспортном происшествии."
         },
         "correct": false
       },
@@ -4500,7 +4500,7 @@ export const questions: Question[] = [
     "question": {
       "es": "¿Estar 17 horas despierto provoca tener el mismo nivel de reacción que una persona con un nivel de alcohol en sangre mayor al permitido por Ley?",
       "en": "Does being awake for 17 hours cause the same level of reaction as a person with a blood alcohol level higher than the legal limit?",
-      "ru": "Быть бодрствующим 17 часов вызывает такой же уровень реакции, как у чело��ека с уровнем алкоголя в крови выше допустимого по закону?"
+      "ru": "Быть бодрствующим 17 часов вызывает такой же уровень реакции, как у человека с уровнем алкоголя в крови выше допустимого по закону?"
     },
     "answers": [
       {
@@ -4719,7 +4719,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Mantenga el interior del vehículo a una temperatura superior a 25 °C.",
           "en": "Keep the interior of the vehicle at a temperature above 25 °C.",
-          "ru": "Поддерживал температуру в сало��е автомобиля выше 25 °C."
+          "ru": "Поддерживал температуру в салоне автомобиля выше 25 °C."
         },
         "correct": false
       },
@@ -4971,7 +4971,7 @@ export const questions: Question[] = [
     "question": {
       "es": "¿Se encuentra prohibida la acción de la persona señalada con el círculo rojo?",
       "en": "Is the action of the person marked with the red circle prohibited?",
-      "ru": "Запрещено ли действие лица, обознач��нного красным кругом?"
+      "ru": "Запрещено ли действие лица, обозначенного красным кругом?"
     },
     "answers": [
       {
@@ -5040,7 +5040,7 @@ export const questions: Question[] = [
     "question": {
       "es": "La presente conducta, ¿es riesgosa al momento de conducir?",
       "en": "Is this behavior risky while driving?",
-      "ru": "Является ли данное поведе��ие рискованным во время вождения?"
+      "ru": "Является ли данное поведение рискованным во время вождения?"
     },
     "answers": [
       {
@@ -5136,7 +5136,7 @@ export const questions: Question[] = [
     "question": {
       "es": "Si al llegar a un cruce se presentan estas 3 señales, ¿cuál de ellas tiene prioridad normativa por sobre las demás?",
       "en": "If these 3 signs appear at an intersection, which one has regulatory priority over the others?",
-      "ru": "Если при подъезде к перекрестку появляются эти 3 знака, какой из ни�� имеет приоритет над остальными?"
+      "ru": "Если при подъезде к перекрестку появляются эти 3 знака, какой из них имеет приоритет над остальными?"
     },
     "answers": [
       {
@@ -5398,7 +5398,7 @@ export const questions: Question[] = [
     "question": {
       "es": "La señalización transitoria se encuentra como prioridad normativa sobre los semáforos, si es que modifica el régimen normal de uso de la vía.",
       "en": "Temporary signage takes precedence over traffic lights if it modifies the normal usage of the road.",
-      "ru": "Временная сигнализация имеет приоритет над светофорами, если она изменяет нормальный режим испо��ьзования дороги."
+      "ru": "Временная сигнализация имеет приоритет над светофорами, если она изменяет нормальный режим использования дороги."
     },
     "answers": [
       {
@@ -6186,7 +6186,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Preventiva",
           "en": "Preventive",
-          "ru": "Пр��дупредительный"
+          "ru": "Предупреждающий."
         },
         "correct": false
       },
@@ -6194,7 +6194,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Reglamentaria.",
           "en": "Regulatory.",
-          "ru": "Регламентированный."
+          "ru": "Регламентирующий."
         },
         "correct": false
       },
@@ -6307,7 +6307,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Dar lugar a este vehículo, despejar el carril de emergencias y si fuera necesario detenerse.",
           "en": "Yield to this vehicle, clear the emergency lane, and if necessary, stop.",
-          "ru": "Уступить дорогу этому автомобилю, освободить полосу для экс��ренных случаев и, если необходимо, остановиться."
+          "ru": "Уступить дорогу этому автомобилю, освободить полосу для экстренных случаев и, если необходимо, остановиться."
         },
         "correct": true
       }
@@ -6439,7 +6439,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Dar lugar a este vehículo, despejar el carril de emergencias y si fuera necesario detenerse.",
           "en": "Yield to this vehicle, clear the emergency lane, and if necessary, stop.",
-          "ru": "Уступить дорогу этому автомобилю, освободить полосу для экс��ренных случаев и, если необходимо, остановиться."
+          "ru": "Уступить дорогу этому автомобилю, освободить полосу для экстренных случаев и, если необходимо, остановиться."
         },
         "correct": true
       }
@@ -6826,7 +6826,7 @@ export const questions: Question[] = [
         "text": {
           "es": "El vehículo que se presenta por el lado derecho.",
           "en": "The vehicle that presents itself from the right side.",
-          "ru": "��ранспортное средство, которое появляется справа."
+          "ru": "Транспортное средство, которое появляется справа."
         },
         "correct": true
       }
@@ -6949,7 +6949,7 @@ export const questions: Question[] = [
         "text": {
           "es": "El vehículo que circule por la derecha.",
           "en": "The vehicle that is traveling on the right.",
-          "ru": "Транспортное средство, дв��жущееся справа."
+          "ru": "Транспортное средство, движущееся справа."
         },
         "correct": false
       },
@@ -7218,7 +7218,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Sí, salvo que se acerque un vehículo en el sentido contrario.",
           "en": "Yes, unless a vehicle approaches from the opposite direction.",
-          "ru": "Да, если только не приближается т��анспортное средство в противоположном направлении."
+          "ru": "Да, если только не приближается транспортное средство в противоположном направлении."
         },
         "correct": false
       },
@@ -7652,7 +7652,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Que los pasajeros bajen por la parte izquierda del colectivo detenido.",
           "en": "That passengers may get off on the left side of the stopped bus.",
-          "ru": "Что пассажиры ��огут выйти с левой стороны остановленного автобуса."
+          "ru": "Что пассажиры могут выйти с левой стороны остановленного автобуса."
         },
         "correct": false
       },
@@ -9252,7 +9252,7 @@ export const questions: Question[] = [
         "text": {
           "es": "En la actualidad apenas tienen incidencia en los incidentes, debido a la seguridad de los vehículos.",
           "en": "Currently has little impact on incidents, due to vehicle safety.",
-          "ru": "В настоящее время почти не влияет на инциденты, благодаря безоп��сности транспортных средств."
+          "ru": "В настоящее время почти не влияет на инциденты, благодаря безопасности транспортных средств."
         },
         "correct": false
       },
@@ -9752,7 +9752,7 @@ export const questions: Question[] = [
     "question": {
       "es": "La Ley Nº 2148 establece como norma general que en avenidas de este tipo, está prohibido estacionar vehículos...",
       "en": "Law No. 2148 establishes as a general rule that in avenues of this type, it is prohibited to park vehicles...",
-      "ru": "Закон № 2148 устанавливает в качестве общег�� правила, что на таких авеню запрещено парковать транспортные средства..."
+      "ru": "Закон № 2148 устанавливает в качестве общего правила, что на таких авеню запрещено парковать транспортные средства..."
     },
     "answers": [
       {
@@ -9884,7 +9884,7 @@ export const questions: Question[] = [
     "question": {
       "es": "Si va a detenerse o estacionar en las cercanías de esta esquina, ¿dónde sería correcto hacerlo?",
       "en": "If you are going to stop or park near this corner, where would it be correct to do so?",
-      "ru": "Если вы собираетесь остановиться или припарковаться вблизи этого угла, где будет правильно это с��елать?"
+      "ru": "Если вы собираетесь остановиться или припарковаться вблизи этого угла, где будет правильно это сделать?"
     },
     "answers": [
       {
@@ -10387,7 +10387,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Para advertir a los demás conductores, frente a malas condiciones climáticas, que el vehículo circula a baja velocidad.",
           "en": "To warn other drivers, in bad weather conditions, that the vehicle is moving at low speed.",
-          "ru": "Чтобы предупредить других ��одителей о плохих погодных условиях, что транспортное средство движется с низкой скоростью."
+          "ru": "Чтобы предупредить других водителей о плохих погодных условиях, что транспортное средство движется с низкой скоростью."
         },
         "correct": false
       },
@@ -10483,7 +10483,7 @@ export const questions: Question[] = [
     "question": {
       "es": "El sistema de luces que posee un vehículo, además de iluminar, brinda información que permite la comunicación entre vehículos y también peatones.",
       "en": "The lighting system of a vehicle, in addition to illuminating, provides information that allows communication between vehicles and also pedestrians.",
-      "ru": "Си��тема огней, установленная на транспортном средстве, помимо освещения, предоставляет информацию, позволяющую общение между транспортными средствами и пешеходами."
+      "ru": "Система огней, установленная на транспортном средстве, помимо освещения, предоставляет информацию, позволяющую общение между транспортными средствами и пешеходами."
     },
     "answers": [
       {
@@ -10907,7 +10907,7 @@ export const questions: Question[] = [
     "question": {
       "es": "Al conducir sobre una calzada en estas condiciones, la distancia de frenado será...",
       "en": "When driving on a roadway in these conditions, the braking distance will be...",
-      "ru": "При вождении по дороге в таких условиях тормозной пу��ь будет..."
+      "ru": "При вождении по дороге в таких условиях тормозной путь будет..."
     },
     "answers": [
       {
@@ -11297,7 +11297,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Usar la bocina para ahuyentar al animal y mantener su velocidad.",
           "en": "Use the horn to scare the animal away and maintain your speed.",
-          "ru": "Использовать сигнал, чтобы прогнать животное и поддерживать свою ск��рость."
+          "ru": "Использовать сигнал, чтобы прогнать животное и поддерживать свою скорость."
         },
         "correct": false
       },
@@ -11366,7 +11366,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Circular por el carril derecho y en la próxima salida abandonar la autopista para llamar al auxilio del vehículo.",
           "en": "Drive in the right lane and at the next exit leave the highway to call for vehicle assistance.",
-          "ru": "Двигаться по правой полосе и на следующем съезде покинут�� автомагистраль, чтобы вызвать помощь для автомобиля."
+          "ru": "Двигаться по правой полосе и на следующем съезде покинуть автомагистраль, чтобы вызвать помощь для автомобиля."
         },
         "correct": true
       },
@@ -11990,7 +11990,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Antes de realizar una maniobra se debe disminuir la velocidad de circulación, colocar la luz de giro y mirar por los espejos realizando un pequeño movimiento corporal hacia adelante para ampliar el ángulo de visión.",
           "en": "Before making a maneuver, you should reduce your speed, signal with your turn signal, and look in the mirrors while making a small forward body movement to widen your field of vision.",
-          "ru": "Перед выполнением маневра необходимо снизить скорость, включить поворотник и посмотреть в зеркала, сделав неб��льшое движение телом вперед, чтобы увеличить угол обзора."
+          "ru": "Перед выполнением маневра необходимо снизить скорость, включить поворотник и посмотреть в зеркала, сделав небольшое движение телом вперед, чтобы увеличить угол обзора."
         },
         "correct": false
       },
@@ -12547,7 +12547,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Se refiere a la certificación que debe cumplir un casco, confirmando que es apto y seguro para usarlo.",
           "en": "It refers to the certification that a helmet must meet, confirming that it is suitable and safe to use.",
-          "ru": "Это относится к сертификации, которую должен про��ти шлем, подтверждая, что он подходит и безопасен для использования."
+          "ru": "Это относится к сертификации, которую должен пройти шлем, подтверждая, что он подходит и безопасен для использования."
         },
         "correct": true
       },
@@ -12823,7 +12823,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Mayor para el acompañante que para el conductor, porque sus lesiones serán de mayor gravedad.",
           "en": "Greater for the passenger than for the driver, because their injuries will be more severe.",
-          "ru": "Боль��е для пассажира, чем для водителя, потому что его травмы будут более серьезными."
+          "ru": "Больше для пассажира, чем для водителя, потому что его травмы будут более серьезными."
         },
         "correct": false
       },
@@ -12919,7 +12919,7 @@ export const questions: Question[] = [
     "question": {
       "es": "Ante la caída de un motociclista que circula a 25 km/h sin casco, ¿pueden producirse lesiones de gravedad, como fractura de cráneo y daños cerebrales?",
       "en": "In the event of a fall from a motorcyclist traveling at 25 km/h without a helmet, can serious injuries occur, such as skull fractures and brain damage?",
-      "ru": "При падении мотоциклиста, движущегося со скоростью 25 км/ч без шлема, могут ли возникнуть серьезные травмы, такие как чере��ная травма и повреждение мозга?"
+      "ru": "При падении мотоциклиста, движущегося со скоростью 25 км/ч без шлема, могут ли возникнуть серьезные травмы, такие как черепно травма и повреждение мозга?"
     },
     "answers": [
       {
@@ -13243,7 +13243,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Midiendo la circunferencia de la cabeza a la altura de la frente y por sobre las orejas.",
           "en": "By measuring the circumference of the head at the height of the forehead and over the ears.",
-          "ru": "Измерив окружность головы на уровне лба и над уш��ми."
+          "ru": "Измерив окружность головы на уровне лба и над ушами."
         },
         "correct": true
       },
@@ -13311,7 +13311,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Justo.",
           "en": "Just right.",
-          "ru": "В刚."
+          "ru": "Впритык(плотно прилегающим)."
         },
         "correct": true
       },
@@ -13380,7 +13380,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Lo más recto posible.",
           "en": "As straight as possible.",
-          "ru": "Как можно ��олее прямой."
+          "ru": "Как можно более прямой."
         },
         "correct": true
       },
@@ -13510,7 +13510,7 @@ export const questions: Question[] = [
         "text": {
           "es": "La rueda trasera soporta el mayor esfuerzo de frenado, ya que es la directriz.",
           "en": "The rear wheel bears the greatest braking effort, as it is the directive.",
-          "ru": "��аднее колесо испытывает наибольшее усилие торможения, так как оно является направляющим."
+          "ru": "Заднее колесо испытывает наибольшее усилие торможения, так как оно является направляющим."
         },
         "correct": false
       },
@@ -14054,7 +14054,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Adecuar la presión según indicación del fabricante del motovehículo.",
           "en": "Adjust the pressure according to the manufacturer's indication for the motorcycle.",
-          "ru": "Отрегулировать давление в соответствии с указаниями производ��теля мототранспортного средства."
+          "ru": "Отрегулировать давление в соответствии с указаниями производителя мототранспортного средства."
         },
         "correct": true
       },
@@ -14151,7 +14151,7 @@ export const questions: Question[] = [
     "question": {
       "es": "¿Qué neumático sufre mayor desgaste en este vehículo?",
       "en": "Which tire suffers more wear in this vehicle?",
-      "ru": "Какая ши��а изнашивается быстрее на этом транспортном средстве?"
+      "ru": "Какая шина изнашивается быстрее на этом транспортном средстве?"
     },
     "answers": [
       {
@@ -14323,7 +14323,7 @@ export const questions: Question[] = [
     "question": {
       "es": "Según la Ley 2148, ¿los motovehículos deben estar provistos de un dispositivo que asegure un frenado eficaz, rápido o progresivo en TODAS las ruedas?",
       "en": "According to Law 2148, must motorcycles be equipped with a device that ensures effective, quick, or progressive braking on ALL wheels?",
-      "ru": "Согласно Закону 2148, должны ли мотоц��клы быть оснащены устройством, обеспечивающим эффективное, быстрое или прогрессивное торможение на ВСЕХ колесах?"
+      "ru": "Согласно Закону 2148, должны ли мотоциклы быть оснащены устройством, обеспечивающим эффективное, быстрое или прогрессивное торможение на ВСЕХ колесах?"
     },
     "answers": [
       {
@@ -14414,7 +14414,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Es fundamental para el frenado.",
           "en": "Is essential for braking.",
-          "ru": "Это важно для ��орможения."
+          "ru": "Это важно для торможения."
         },
         "correct": false
       }
@@ -14482,7 +14482,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Disminuir la velocidad antes de llegar y mantener la moto vertical al pasar sobre ella.",
           "en": "Reduce speed before arriving and keep the motorcycle upright while passing over it.",
-          "ru": "Снизить скорость перед тем, как подъехать, и держат�� мотоцикл вертикально, проезжая через нее."
+          "ru": "Снизить скорость перед тем, как подъехать, и держать мотоцикл вертикально, проезжая через нее."
         },
         "correct": true
       }
@@ -14727,7 +14727,7 @@ export const questions: Question[] = [
         "text": {
           "es": "No, porque los acompañantes deben ser mayores de 16 años y circular en el asiento trasero.",
           "en": "No, because passengers must be over 16 years old and ride in the back seat.",
-          "ru": "Нет, потому что пассажиры должны быть старше 16 ле�� и находиться на заднем сиденье."
+          "ru": "Нет, потому что пассажиры должны быть старше 16 лет и находиться на заднем сиденье."
         },
         "correct": true
       }
@@ -14978,7 +14978,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Deben labrar un acta de infracción al motociclista, retener la licencia de conducir y remitir el motovehículo.",
           "en": "They must issue an infringement report to the motorcyclist, seize the driver's license, and impound the motorcycle.",
-          "ru": "Они должны с��ставить протокол нарушения для мотоциклиста, задержать водительские права и отправить мотоцикл."
+          "ru": "Они должны составить протокол нарушения для мотоциклиста, задержать водительские права и отправить мотоцикл."
         },
         "correct": true
       }
@@ -15896,7 +15896,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Panel de Prevención (Objeto Rígido).",
           "en": "Warning Panel (Rigid Object).",
-          "ru": "Предупредительный знак (жестк��й объект)."
+          "ru": "Предупредительный знак (жесткий объект)."
         },
         "correct": true
       },
@@ -16281,7 +16281,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Comienzo de sentido opuesto de circulación.",
           "en": "Beginning of opposite direction of traffic.",
-          "ru": "На��ало противоположного направления движения."
+          "ru": "Начало противоположного направления движения."
         },
         "correct": false
       }
@@ -16852,7 +16852,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Existencia de un estacionamiento vehicular, en las inmediaciones.",
           "en": "Existence of a parking lot in the vicinity.",
-          "ru": "��аличие парковки для автомобилей в окрестностях."
+          "ru": "Наличие парковки для автомобилей в окрестностях."
         },
         "correct": true
       },
