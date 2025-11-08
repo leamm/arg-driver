@@ -696,8 +696,8 @@ export const questions: Question[] = [
       {
         "text": {
           "es": "Es indistinto.",
-          "en": "It is indifferent.",
-          "ru": "Это не имеет значения."
+          "en": "It makes no difference.",
+          "ru": "Без разницы."
         },
         "correct": false
       }
