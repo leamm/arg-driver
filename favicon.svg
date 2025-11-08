@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6ec5ff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#6ec5ff"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#g)" stroke="#0b4a6f" stroke-width="3"/>
+  <!-- small sun -->
+  <circle cx="32" cy="22" r="5" fill="#ffde59" stroke="#c08b00" stroke-width="1.5"/>
+  <!-- simple moto: two wheels + frame -->
+  <g fill="none" stroke="#0b4a6f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="22" cy="42" r="6" fill="#fff"/>
+    <circle cx="42" cy="42" r="6" fill="#fff"/>
+    <path d="M18 42h10l6-7h12l4 8"/>
+  </g>
+</svg>
