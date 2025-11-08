@@ -10,7 +10,7 @@ export const Header = () => {
         {/* Left: logo + title (title truncates when space is limited) */}
         <div className="flex items-center gap-3 min-w-0">
           <NavLink to="/" className="shrink-0">
-            <img src="/logo.png" alt="Arg Driver" className="w-10 h-10 sm:w-12 sm:h-12" />
+            <img src="/logo.svg" alt="Arg Driver" className="w-10 h-10 sm:w-12 sm:h-12" />
           </NavLink>
           <h1 className="text-lg sm:text-xl font-bold truncate flex-1">
             Test de Conducir - Categoría A
