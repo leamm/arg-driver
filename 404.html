@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página no encontrada – Redirigiendo…</title>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <meta name="robots" content="noindex" />
+    <style>
+      html, body { height: 100%; margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: #0b1220; color: #e5e7eb; }
+      .wrap { display: flex; align-items: center; justify-content: center; height: 100%; text-align: center; padding: 24px; }
+      .card { max-width: 640px; }
+      a { color: #60a5fa; }
+    </style>
+    <script>
+      (function() {
+        try {
+          // Prefer hard redirect to the site root
+          var target = '/';
+          // If hosted under a subpath (e.g., GitHub Pages with custom domain not used),
+          // use the origin to ensure correct base.
+          if (!/^\//.test(target)) target = '/' + target;
+          window.location.replace(target);
+        } catch (e) {
+          // noop – meta refresh will handle it
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>404 – Página no encontrada</h1>
+        <p>Estás siendo redirigido a la página principal.</p>
+        <p>Si no ocurre automáticamente, haz clic aquí: <a href="/">Volver al inicio</a></p>
+      </div>
+    </div>
+  </body>
+</html>
