@@ -9,6 +9,7 @@ import { getFavoriteIds, toggleFavorite } from "@/utils/favorites";
 import { getQuestionAttempts, QuestionAttempt } from "@/utils/statistics";
 import { Star } from "lucide-react";
 import { format } from "date-fns";
+import { FeedbackFooter } from "@/components/FeedbackFooter";
 
 // Persisted language key shared across pages
 const LANG_KEY = "argdriver_lang";
@@ -225,6 +226,7 @@ const AllQuestions = () => {
           </div>
         )}
       </main>
+      <FeedbackFooter language={lang} />
     </div>
   );
 };

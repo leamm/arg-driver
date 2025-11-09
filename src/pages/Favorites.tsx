@@ -6,6 +6,7 @@ import { questions, Question } from "@/data/questions";
 import { getFavoriteIds, toggleFavorite } from "@/utils/favorites";
 import { Star } from "lucide-react";
 import { LanguageSelector } from "@/components/LanguageSelector";
+import { FeedbackFooter } from "@/components/FeedbackFooter";
 
 const Favorites = () => {
   const [language, setLanguage] = useState<"es" | "en" | "ru">("es");
@@ -75,6 +76,7 @@ const Favorites = () => {
           </div>
         )}
       </main>
+      <FeedbackFooter language={language} />
     </div>
   );
 };

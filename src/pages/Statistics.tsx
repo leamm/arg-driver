@@ -14,6 +14,7 @@ import {
 import { questions } from "@/data/questions";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, Legend } from 'recharts';
 import { format } from 'date-fns';
+import { FeedbackFooter } from "@/components/FeedbackFooter";
 
 const Statistics = () => {
   const [questionStats, setQuestionStats] = useState<QuestionStat[]>([]);
@@ -311,6 +312,7 @@ const Statistics = () => {
           </Button>
         </div>
       </main>
+      <FeedbackFooter language={language} />
     </div>
   );
 };

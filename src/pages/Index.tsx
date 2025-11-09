@@ -11,6 +11,7 @@ import { updateQuestionStat, addTestStat, getQuestionAttempts } from "@/utils/st
 import { getFavoriteIds, toggleFavorite } from "@/utils/favorites";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { format } from "date-fns";
+import { FeedbackFooter } from "@/components/FeedbackFooter";
 
 const STORAGE_KEY = "argdriver_test_state_v1";
 
@@ -240,6 +241,7 @@ const Index = () => {
             onRestart={handleRestart}
           />
         </main>
+        <FeedbackFooter language={language} />
       </div>
     );
   }
@@ -340,6 +342,7 @@ const Index = () => {
           </div>
         </div>
       </main>
+      <FeedbackFooter language={language} />
     </div>
   );
 };
