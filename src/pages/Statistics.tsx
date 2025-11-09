@@ -5,24 +5,26 @@ import { Button } from "@/components/ui/button";
 import { 
   getQuestionStats, 
   getTestStats, 
+  getAllQuestionAttempts,
   QuestionStat, 
   TestStat,
+  QuestionAttempt,
   clearAllStats
 } from "@/utils/statistics";
 import { questions } from "@/data/questions";
-import { useNavigate } from "react-router-dom";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, Legend } from 'recharts';
 import { format } from 'date-fns';
 
 const Statistics = () => {
   const [questionStats, setQuestionStats] = useState<QuestionStat[]>([]);
   const [testStats, setTestStats] = useState<TestStat[]>([]);
+  const [questionAttempts, setQuestionAttempts] = useState<QuestionAttempt[]>([]);
   const [language, setLanguage] = useState<"es" | "en" | "ru">("es");
-  const navigate = useNavigate();
 
   useEffect(() => {
     setQuestionStats(getQuestionStats());
     setTestStats(getTestStats());
+    setQuestionAttempts(getAllQuestionAttempts());
   }, []);
 
   const handleClearStats = () => {
@@ -33,27 +35,40 @@ const Statistics = () => {
     }
   };
 
-  const handleStartPractice = () => {
-    // Navigate to the practice page (we'll implement this later)
-    navigate("/");
-  };
-
   const chartData = testStats.map(stat => ({
     date: format(new Date(stat.date), 'dd/MM/yyyy'),
     score: stat.score
   }));
 
-  // Get questions that need practice (never answered or more wrong than right)
-  const questionsForPractice = questionStats
-    .filter(stat => stat.correctAnswers < stat.attempts / 2)
-    .map(stat => {
-      const question = questions.find(q => q.id === stat.questionId);
-      return {
-        ...stat,
-        question
+  const answersTrendMap = questionAttempts.reduce((acc, attempt) => {
+    const attemptDate = new Date(attempt.date);
+    const dayKey = format(attemptDate, 'yyyy-MM-dd');
+
+    if (!acc[dayKey]) {
+      acc[dayKey] = {
+        dayKey,
+        label: format(attemptDate, 'dd/MM/yyyy'),
+        correct: 0,
+        incorrect: 0
       };
-    })
-    .filter(item => item.question); // Filter out any undefined questions
+    }
+
+    if (attempt.correct) {
+      acc[dayKey].correct += 1;
+    } else {
+      acc[dayKey].incorrect += 1;
+    }
+
+    return acc;
+  }, {} as Record<string, { dayKey: string; label: string; correct: number; incorrect: number }>);
+
+  const correctIncorrectData = Object.values(answersTrendMap)
+    .sort((a, b) => a.dayKey.localeCompare(b.dayKey))
+    .map(item => ({
+      date: item.label,
+      correct: item.correct,
+      incorrect: item.incorrect
+    }));
 
   const averageScore = testStats.length > 0 
     ? Math.round(testStats.reduce((sum, stat) => sum + stat.score, 0) / testStats.length) 
@@ -64,6 +79,31 @@ const Statistics = () => {
   const overallAccuracy = totalAttempts > 0 
     ? Math.round((totalCorrect / totalAttempts) * 100) 
     : 0;
+  const avgAttemptsPerTicket = questionStats.length > 0 
+    ? (totalAttempts / questionStats.length) 
+    : 0;
+
+  const lastAnswerMap = questionAttempts.reduce((acc, attempt) => {
+    const existing = acc.get(attempt.questionId);
+    if (!existing || new Date(attempt.date).getTime() > new Date(existing.date).getTime()) {
+      acc.set(attempt.questionId, attempt);
+    }
+    return acc;
+  }, new Map<number, QuestionAttempt>());
+
+  const totalTickets = questions.length;
+  const answeredTickets = lastAnswerMap.size;
+  const notAnsweredTickets = Math.max(totalTickets - answeredTickets, 0);
+  const lastCorrectTickets = Array.from(lastAnswerMap.values()).filter(attempt => attempt.correct).length;
+  const lastIncorrectTickets = answeredTickets - lastCorrectTickets;
+
+  const lastAttemptTimestamp = questionAttempts.reduce((latest, attempt) => {
+    const time = new Date(attempt.date).getTime();
+    return Math.max(latest, time);
+  }, 0);
+  const lastActivityDisplay = lastAttemptTimestamp
+    ? format(new Date(lastAttemptTimestamp), 'dd/MM/yyyy HH:mm')
+    : null;
 
   const languageTexts = {
     title: {
@@ -96,35 +136,65 @@ const Statistics = () => {
       en: "Score history",
       ru: "История баллов"
     },
-    practice: {
-      es: "Preguntas para practicar",
-      en: "Questions to practice",
-      ru: "Вопросы для практики"
+    answerBreakdown: {
+      es: "Correctas vs incorrectas por fecha",
+      en: "Correct vs incorrect by date",
+      ru: "Правильные и неправильные по датам"
     },
-    noPractice: {
-      es: "No hay preguntas para practicar",
-      en: "No questions to practice",
-      ru: "Нет вопросов для практики"
+    noAnswerData: {
+      es: "Todavía no hay intentos registrados.",
+      en: "No attempts recorded yet.",
+      ru: "Попыток пока нет."
     },
-    startPractice: {
-      es: "Comenzar práctica",
-      en: "Start practice",
-      ru: "Начать практику"
+    ticketsOverview: {
+      es: "Resumen de tickets",
+      en: "Tickets overview",
+      ru: "Сводка по тикетам"
+    },
+    ticketsTotal: {
+      es: "Tickets totales",
+      en: "Total tickets",
+      ru: "Всего тикетов"
+    },
+    ticketsUnanswered: {
+      es: "Sin responder",
+      en: "Not answered",
+      ru: "Без ответа"
+    },
+    ticketsIncorrect: {
+      es: "Última incorrecta",
+      en: "Last incorrect",
+      ru: "Последний неправильный"
+    },
+    ticketsCorrect: {
+      es: "Última correcta",
+      en: "Last correct",
+      ru: "Последний правильный"
+    },
+    avgAttempts: {
+      es: "Intentos promedio/ticket",
+      en: "Avg attempts/ticket",
+      ru: "Сред. попыток/тикет"
+    },
+    lastActivity: {
+      es: "Última actividad",
+      en: "Last activity",
+      ru: "Последняя активность"
+    },
+    correctLabel: {
+      es: "Correctas",
+      en: "Correct",
+      ru: "Правильные"
+    },
+    incorrectLabel: {
+      es: "Incorrectas",
+      en: "Incorrect",
+      ru: "Неправильные"
     },
     clearStats: {
       es: "Borrar estadísticas",
       en: "Clear statistics",
       ru: "Очистить статистику"
-    },
-    attempts: {
-      es: "Intentos",
-      en: "Attempts",
-      ru: "Попытки"
-    },
-    correct: {
-      es: "Correctas",
-      en: "Correct",
-      ru: "Правильно"
     }
   };
 
@@ -169,26 +239,69 @@ const Statistics = () => {
         )}
         
         <Card className="p-6 mb-8">
-          <h2 className="text-xl font-semibold mb-4">{languageTexts.practice[language]}</h2>
+          <h2 className="text-xl font-semibold mb-4">{languageTexts.answerBreakdown[language]}</h2>
           
-          {questionsForPractice.length > 0 ? (
-            <div className="space-y-4">
-              {questionsForPractice.map((item) => (
-                <Card key={item.questionId} className="p-4 border">
-                  <p className="font-medium mb-2">{item.question?.question[language]}</p>
-                  <div className="flex justify-between text-sm text-muted-foreground">
-                    <span>{languageTexts.attempts[language]}: {item.attempts}</span>
-                    <span>{languageTexts.correct[language]}: {item.correctAnswers}</span>
-                  </div>
-                </Card>
-              ))}
-              
-              <Button onClick={handleStartPractice} className="w-full mt-4">
-                {languageTexts.startPractice[language]}
-              </Button>
+          {correctIncorrectData.length > 0 ? (
+            <div className="h-64">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={correctIncorrectData}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="date" />
+                  <YAxis allowDecimals={false} />
+                  <Tooltip />
+                  <Legend />
+                  <Line
+                    type="monotone"
+                    dataKey="correct"
+                    stroke="#22c55e"
+                    strokeWidth={2}
+                    dot={false}
+                    name={languageTexts.correctLabel[language]}
+                  />
+                  <Line
+                    type="monotone"
+                    dataKey="incorrect"
+                    stroke="#ef4444"
+                    strokeWidth={2}
+                    dot={false}
+                    name={languageTexts.incorrectLabel[language]}
+                  />
+                </LineChart>
+              </ResponsiveContainer>
             </div>
           ) : (
-            <p className="text-muted-foreground">{languageTexts.noPractice[language]}</p>
+            <p className="text-muted-foreground">{languageTexts.noAnswerData[language]}</p>
+          )}
+        </Card>
+
+        <Card className="p-6 mb-8">
+          <h2 className="text-xl font-semibold mb-4">{languageTexts.ticketsOverview[language]}</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div>
+              <p className="text-sm text-muted-foreground">{languageTexts.ticketsTotal[language]}</p>
+              <p className="text-3xl font-bold">{totalTickets}</p>
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground">{languageTexts.ticketsUnanswered[language]}</p>
+              <p className="text-3xl font-bold">{notAnsweredTickets}</p>
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground">{languageTexts.ticketsIncorrect[language]}</p>
+              <p className="text-3xl font-bold">{lastIncorrectTickets}</p>
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground">{languageTexts.ticketsCorrect[language]}</p>
+              <p className="text-3xl font-bold">{lastCorrectTickets}</p>
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground">{languageTexts.avgAttempts[language]}</p>
+              <p className="text-3xl font-bold">{avgAttemptsPerTicket.toFixed(1)}</p>
+            </div>
+          </div>
+          {lastActivityDisplay && (
+            <p className="text-sm text-muted-foreground mt-6">
+              {languageTexts.lastActivity[language]}: {lastActivityDisplay}
+            </p>
           )}
         </Card>
         
