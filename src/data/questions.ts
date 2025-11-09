@@ -193,7 +193,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Al estado del pavimento y al clima, en especial.",
           "en": "The condition of the pavement and the weather, in particular.",
-          "ru": "На состояние д��рожного покрытия и погоду, в частности."
+          "ru": "На состояние дорожного покрытия и погоду, в частности."
         },
         "correct": false
       },
@@ -279,7 +279,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Hecho que puede ser evitado, en el cual se produce daño a persona o cosa, en ocasión de circulación en la vía pública.",
           "en": "An event that can be avoided, in which damage occurs to a person or thing, while circulating on public roads.",
-          "ru": "Событие, которое можно предотвратить, в результате которого причиняется в��ед человеку или имуществу во время движения по общественным дорогам."
+          "ru": "Событие, которое можно предотвратить, в результате которого причиняется вред человеку или имуществу во время движения по общественным дорогам."
         },
         "correct": true
       },
@@ -306,7 +306,7 @@ export const questions: Question[] = [
     "question": {
       "es": "¿De qué se trata el “Programa Visión Cero” creado en 1997 en Suecia?",
       "en": "What is the 'Vision Zero' Program created in 1997 in Sweden about?",
-      "ru": "О чем идет речь в программе \"Нулевая видимость\", созданной в 1997 году в Швеции?"
+      "ru": "О чем программа «Vision Zero», созданная в 1997 году в Швеции?"
     },
     "answers": [
       {
@@ -450,7 +450,7 @@ export const questions: Question[] = [
         "text": {
           "es": "Asumir la obligación de no entorpecer la circulación y no causar peligro, perjuicios o molestias innecesarias a las personas o daños a los bienes.",
           "en": "Assume the obligation not to obstruct traffic and not to cause danger, harm, or unnecessary inconvenience to people or damage to property.",
-          "ru": "Брать на себя обязательство не препятствовать движению и не создавать опасности, ущерба или ненужных неудобств людям или ущер��а имуществу."
+          "ru": "Брать на себя обязательство не препятствовать движению и не создавать опасности, ущерба или ненужных неудобств людям или ущерба имуществу."
         },
         "correct": true
       },
@@ -628,7 +628,7 @@ export const questions: Question[] = [
         "text": {
           "es": "A mayor cantidad de vehículos motorizados, mayor probabilidad de siniestralidad.",
           "en": "The greater the number of motorized vehicles, the greater the probability of accidents.",
-          "ru": "При большем ко��ичестве моторизованных транспортных средств вероятность дорожно-транспортных происшествий выше."
+          "ru": "При большем количестве моторизованных транспортных средств вероятность дорожно-транспортных происшествий выше."
         },
         "correct": true
       }
@@ -1733,7 +1733,7 @@ export const questions: Question[] = [
         "text": {
           "es": "En coincidencia con las paradas de transporte.",
           "en": "In line with the transport stops.",
-          "ru": "В соответствии с остановками обществ��нного транспорта."
+          "ru": "В соответствии с остановками общественного транспорта."
         },
         "correct": false
       },
@@ -2538,7 +2538,7 @@ export const questions: Question[] = [
         "text": {
           "es": "La bicisenda es de uso exclusivo de bicicletas y la ciclovía de uso preferencial.",
           "en": "The bike path is for the exclusive use of bicycles and the bike lane is for preferential use.",
-          "ru": "Велосипедная дорожка предназначена исключительно для велосипедов, а велодорожка имеет приоритетно�� использование."
+          "ru": "Велосипедная дорожка предназначена исключительно для велосипедов, а велодорожка предназначена для преимущественного использования."
         },
         "correct": false
       },
@@ -3119,7 +3119,7 @@ export const questions: Question[] = [
     "question": {
       "es": "En caso de comprobar una falta, ¿puede un agente de tránsito retener la licencia de conducir?",
       "en": "In case of confirming an infraction, can a traffic agent retain the driver's license?",
-      "ru": "В случае выявления правонарушения, может ли инспектор дорожного движения зад��ржать водительские права?"
+      "ru": "В случае выявления правонарушения, может ли инспектор дорожного движения задержать водительские права?"
     },
     "answers": [
       {
@@ -11124,7 +11124,7 @@ export const questions: Question[] = [
         "text": {
           "es": "El campo visual del conductor, su percepción del entorno, la capacidad lumínica del vehículo y la adherencia de las cubiertas.",
           "en": "The driver's field of vision, their perception of the environment, the vehicle's lighting capacity, and the tire grip.",
-          "ru": "Поле зрения водителя, его восприятие окружающей среды, световая мощ��ость автомобиля и сцепление шин."
+          "ru": "Поле зрения водителя, его восприятие окружающей среды, световая мощность автомобиля и сцепление шин."
         },
         "correct": true
       },
@@ -13157,7 +13157,7 @@ export const questions: Question[] = [
         "text": {
           "es": "No. El casco debe estar abrochado pero es mejor si queda holgado ya que resulta más cómodo para el conductor.",
           "en": "No. The helmet must be fastened but it is better if it is loose as it is more comfortable for the driver.",
-          "ru": "Нет. Шлем должен быть застегнут, но лучш��, если он будет свободным, так как это более удобно для водителя."
+          "ru": "Нет. Шлем должен быть застегнут, но лучше, если он будет свободным, так как это более удобно для водителя."
         },
         "correct": false
       },
